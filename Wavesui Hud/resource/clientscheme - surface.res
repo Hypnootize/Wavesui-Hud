@@ -3114,7 +3114,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Medium"
+				"name"		"Surface"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" 	"1"
@@ -3125,7 +3125,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Medium"
+				"name"		"Surface"
 				"tall"		"11"
 				"weight"	"500"
 				"blur"		"3"
@@ -3138,12 +3138,73 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Medium"
+				"name"		"Surface"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 				"dropshadow"	"1"
+			}
+		}
+		
+		"QuestMap_Small_Blur"
+		{
+			"1"
+			{
+				"name"		"Surface"
+				"tall"		"7"
+				"weight"	"0"
+				"blur"		"3"
+				"additive"	"1"
+				"antialias" 	"1"
+			}
+		}
+
+		"QuestMap_Small"
+		{
+			"1"
+			{
+				"name"		"Surface"
+				"tall"		"7"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Medium"
+		{
+			"1"
+			{
+				"name"		"Surface"
+				"tall"		"10"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Large"
+		{
+			"1"
+			{
+				"name"		"Surface"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Huge"
+		{
+			"1"
+			{
+				"name"		"Surface"
+				"tall"		"30"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 	}

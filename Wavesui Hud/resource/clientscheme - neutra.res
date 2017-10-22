@@ -3173,6 +3173,67 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
+		
+		"QuestMap_Small_Blur"
+		{
+			"1"
+			{
+				"name"		"Neutra Text Light"
+				"tall"		"7"
+				"weight"	"0"
+				"blur"		"3"
+				"additive"	"1"
+				"antialias" 	"1"
+			}
+		}
+
+		"QuestMap_Small"
+		{
+			"1"
+			{
+				"name"		"Neutra Text Light"
+				"tall"		"7"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Medium"
+		{
+			"1"
+			{
+				"name"		"Neutra Text Light"
+				"tall"		"10"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Large"
+		{
+			"1"
+			{
+				"name"		"Neutra Text Light"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Huge"
+		{
+			"1"
+			{
+				"name"		"Neutra Text Light"
+				"tall"		"30"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 	}
 
 //////////////////////// CUSTOM FONT FILES /////////////////////////////
