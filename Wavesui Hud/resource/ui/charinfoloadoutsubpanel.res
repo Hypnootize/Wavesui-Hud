@@ -1084,7 +1084,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomBP"
-		"xpos"			"c-248"
+		"xpos"			"c-250"
 		"ypos"			"c102"
 		"zpos"			"105"
 		"wide"			"160"
@@ -1142,7 +1142,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomBP2"
-		"xpos"			"c-248"
+		"xpos"			"c-250"
 		"ypos"			"c90"
 		"zpos"			"104"
 		"wide"			"160"
@@ -1197,7 +1197,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomCraft"
-		"xpos"			"c-134"
+		"xpos"			"c-160"
 		"ypos"			"c102"
 		"zpos"			"105"
 		"wide"			"160"
@@ -1255,7 +1255,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomCraft2"
-		"xpos"			"c-134"
+		"xpos"			"c-160"
 		"ypos"			"c86"
 		"zpos"			"104"
 		"wide"			"160"
@@ -1311,7 +1311,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomCatalog"
-		"xpos"			"c-22"
+		"xpos"			"c-90"
 		"ypos"			"c102"
 		"zpos"			"105"
 		"wide"			"160"
@@ -1369,7 +1369,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomCatalog2"
-		"xpos"			"c-22"
+		"xpos"			"c-90"
 		"ypos"			"c86"
 		"zpos"			"104"
 		"wide"			"160"
@@ -1424,7 +1424,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomTrade"
-		"xpos"			"c86"
+		"xpos"			"c0"
 		"ypos"			"c102"
 		"zpos"			"105"
 		"wide"			"160"
@@ -1482,7 +1482,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomTrade2"
-		"xpos"			"c86"
+		"xpos"			"c0"
 		"ypos"			"c94"
 		"zpos"			"104"
 		"wide"			"160"
@@ -1502,6 +1502,120 @@
 		"default"		"0"
 		"paintbackground" "0"
 		"Command"		"trading"
+
+		
+		// default style
+		"defaultBgColor_override"	"BRIGHTGRAY"
+		"defaultFgColor_override" "BRIGHTGRAY"
+		"border_default"		"FuckinBorderDude"
+        
+		// armed style
+		"armedBgColor_override"	"SOFTORANGE"
+		"armedFgColor_override" 	"SOFTORANGE"
+		"border_armed"		"FuckinBorderDude"
+    
+		// depressed style    
+		"depressedBgColor_override"	"SOFTORANGE"
+		"depressedFgColor_override" "SOFTORANGE"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"16"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}			
+	}
+	
+	"CustomPaints"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomPaints"
+		"xpos"			"c90"
+		"ypos"			"c102"
+		"zpos"			"105"
+		"wide"			"160"
+		"tall"			"68"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"WAR PAINTS"
+		"font"			"Bold24"
+		"textAlignment"	"south"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"paintbackground" "0"
+		"Command"		"paintkit_preview"
+		
+		"fgcolor_override"		"BRIGHTGRAY"
+		
+		// default style
+		"defaultBgColor_override"	"BRIGHTGRAY"
+		"defaultFgColor_override" "0 0 0 0"
+		"border_default"		"FuckinBorderDude"
+        
+		// armed style
+		"armedBgColor_override"	"SOFTORANGE"
+		"armedFgColor_override" 	"SOFTORANGE"
+		"border_armed"		"FuckinBorderDude"
+    
+		// depressed style    
+		"depressedBgColor_override"	"SOFTORANGE"
+		"depressedFgColor_override" "0 0 0 0"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"16"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}			
+	}
+	
+	"CustomPaints2"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomPaints2"
+		"xpos"			"c90"
+		"ypos"			"c94"
+		"zpos"			"104"
+		"wide"			"160"
+		"tall"			"57"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"I"
+		"font"			"Symbols24"
+		"textAlignment"	"center"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"paintbackground" "0"
+		"Command"		"paintkit_preview"
 
 		
 		// default style
@@ -1886,6 +2000,18 @@
 		"tall"				"480"
 		"zpos"				"499"
 		"visible"			"1"
+	}
+	"InspectionPanel"
+	{
+		"fieldName"		"InspectionPanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
+		"zpos"			"2000"
+		"wide"			"f0"
+		"tall"			"f100"
+		"visible"		"0"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"	"30 25 25 245"
 	}
 	
 	"ShowExplanationsButton"
