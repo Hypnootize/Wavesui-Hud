@@ -191,6 +191,7 @@
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
+			"border"		"MainMenuBGBorder"
 		}
 
 		"NameLabel"
@@ -199,7 +200,7 @@
 			"fieldName"		"NameLabel"
 			"xpos"			"65"
 			"ypos"			"5"
-			"wide"			"0"		//f0
+			"wide"			"0"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
@@ -212,6 +213,7 @@
 
 			if_mini
 			{
+				"wide"		"f0"
 				"visible"	"0"
 			}
 		}
@@ -235,8 +237,11 @@
 
 			if_mini
 			{
-				"xpos"	"67"
-				"ypos"	"4"
+				"xpos"				"67"
+				"ypos"				"4"
+				"font"				"HudFontSmallestBold"
+				"fgcolor_override"	"TanLight"
+				"textAlignment"		"north-west"
 			}
 		}
 
