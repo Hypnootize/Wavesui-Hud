@@ -24,6 +24,11 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
+
 			"ParticleEffects"
 			{
 				"0"
@@ -118,6 +123,11 @@
 
 			"paintbackground"	"0"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
+
 			"ParticleEffects"
 			{
 				"0"
@@ -182,7 +192,6 @@
 		"tall"			"f40"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -191,7 +200,6 @@
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
-			"border"		"MainMenuBGBorder"
 		}
 
 		"NameLabel"
@@ -200,9 +208,9 @@
 			"fieldName"		"NameLabel"
 			"xpos"			"65"
 			"ypos"			"5"
-			"wide"			"0"
+			"wide"			"f0"
 			"zpos"			"100"
-			"tall"			"20"
+			"tall"			"0"	//20
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallishBold"
@@ -213,18 +221,17 @@
 
 			if_mini
 			{
-				"wide"		"f0"
 				"visible"	"0"
 			}
 		}
 
-		"LevelLabel"
+		"DescLine1"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabel"
-			"xpos"			"35"
-			"ypos"			"20"
-			"wide"			"f0"
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine1"
+			"xpos"			"75"
+			"ypos"			"13"
+			"wide"			"180"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
@@ -232,16 +239,65 @@
 			"font"			"Bold16"
 			"fgcolor_override"	"WHITEY"
 			"textAlignment"	"center"
-			"labelText"		"%level%"
+			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
-				"xpos"				"67"
-				"ypos"				"4"
-				"font"				"HudFontSmallestBold"
+				"xpos"	"67"
+				"ypos"	"4"
+				"wide"	"195"
+				"font"	"HudFontSmallestBold"
 				"fgcolor_override"	"TanLight"
-				"textAlignment"		"north-west"
+				"textAlignment"	"north-west"
+			}
+
+			"fonts"
+			{
+				"0"		"Bold16"
+				"1"		"Bold16"
+				"2"		"Bold16"
+			}
+		}
+
+		"DescLine2"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
+			"xpos"			"75"
+			"ypos"			"29"
+			"wide"			"180"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"Bold16"
+			"fgcolor_override"	"WHITEY"
+			"textAlignment"	"center"
+			"labelText"		"%desc2%"
+			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"	"67"
+				"ypos"	"4"
+				"wide"	"195"
+				"font"	"HudFontSmallestBold"
+				"fgcolor_override"	"TanLight"
+				"textAlignment"	"north-west"
+			}
+
+			"fonts"
+			{
+				"0"		"Bold16"
+				"1"		"Bold16"
+				"2"		"Bold16"
+			}
+
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"WHITEY"
 			}
 		}
 
