@@ -12,7 +12,7 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
-		"xpos"				"00"
+		"xpos"				"0"
 		"xpos_minmode"		"20"
 		"ypos"				"0"
 		"ypos_minmode"		"-14"
@@ -31,21 +31,22 @@
 
 		if_match
 		{
-			"xpos"				"25"
+			"xpos"				"27"
+			"xpos_minmode"		"27"
+			"ypos"				"-5"
+			"ypos_minmode"		"-5"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"WHITEY"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
 			"zpos"			"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 
 			"font"			"HudFontMediumSmall"
@@ -63,7 +64,11 @@
 			if_match
 			{
 				"font"			"Bold12"
-				"ypos"			"6"
+				"font_minmode"	"Bold12"
+				"xpos_minmode"	"23"
+				"ypos_minmode"	"11"
+				"wide_minmode"	"45"
+				"tall_minmode"	"31"
 			}
 		}	
 	}
@@ -91,7 +96,8 @@
 
 		if_match
 		{
-			"xpos"				"62"
+			"xpos"				"60"
+			"ypos"				"-5"
 		}
 		
 		"TimePanelValue"
@@ -120,7 +126,11 @@
 			if_match
 			{
 				"font"			"Bold12"
-				"ypos"			"6"
+				"font_minmode"	"Bold12"
+				"xpos_minmode"	"23"
+				"ypos_minmode"	"11"
+				"wide_minmode"	"45"
+				"tall_minmode"	"31"
 			}
 		}	
 	}
