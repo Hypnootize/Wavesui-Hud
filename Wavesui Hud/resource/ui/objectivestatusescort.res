@@ -36,8 +36,6 @@
 		"ypos"			"120"
 		"wide"			"212"
 		"tall"			"2"
-
-		"ypos_minmode"			"123"
 		
 		"if_multiple_trains"
 		{
@@ -49,10 +47,8 @@
 		
 		"if_single_with_hills"
 		{
-			"ypos"			"116"
-			"ypos_minmode"	"120"
-			"tall"			"18"
-			"tall_minmode"	"10"
+			"ypos"			"120"
+			"tall"			"2"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}		
 	}	
@@ -97,11 +93,6 @@
 		"ypos"			"115"
 		"wide"			"12"
 		"tall"			"12"
-
-		"xpos_minmode"		"64"
-		"ypos_minmode"		"116"
-		"wide_minmode"		"12"
-		"tall_minmode"		"12"
 		
 		"if_team_red"
 		{
@@ -120,7 +111,7 @@
 		
 		"if_multiple_trains"
 		{
-			"xpos"			"59"
+			"xpos"			"70"
 			"zpos"			"5"
 			"wide"			"14"
 			"tall"			"14"
@@ -166,12 +157,7 @@
 		"ypos"			"115"
 		"wide"			"12"
 		"tall"			"12"
-
-		"xpos_minmode"		"65"
-		"ypos_minmode"		"116"
-		"wide_minmode"		"14"
-		"tall_minmode"		"14"
-												
+		
 		"if_multiple_trains"
 		{
 			"xpos"			"61"
@@ -188,12 +174,9 @@
 		"fieldName"		"EscortItemPanel"
 		"xpos"			"0"
 		"ypos"			"8"
-		"ypos_minmode"		"48"
 		"zpos"			"2"
-		"wide"			"80"
-		"wide_minmode"		"52"		
+		"wide"			"80"	
 		"tall"			"115"
-		"tall_minmode"		"75"		
 		"visible"		"1"
 		"enabled"		"1"
 				
@@ -209,17 +192,12 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"HudFontSmallest"		
-			"font_minmode"		"ItemFontAttribSmall"		
+			"font"			"HudFontSmallest"
 			"xpos"			"35"
-			"xpos_minmode"		"23"			
 			"ypos"			"82"
-			"ypos_minmode"		"53"			
 			"zpos"			"2"
 			"wide"			"10"
-			"wide_minmode"		"7"
 			"tall"			"10"
-			"tall_minmode"		"7"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -266,11 +244,6 @@
 			"ypos"			"82"
 			"wide"			"32"
 			"tall"			"32"
-
-			"xpos_minmode"		"13"
-			"ypos_minmode"		"50"
-			"wide_minmode"		"26"
-			"tall_minmode"		"26"
 			
 			"if_team_blue"
 			{
@@ -358,14 +331,10 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Speed_Backwards"	
 			"xpos"			"35"
-			"xpos_minmode"		"23"
 			"ypos"			"82"
-			"ypos_minmode"		"53"
 			"zpos"			"2"
 			"wide"			"10"
-			"wide_minmode"		"7"
 			"tall"			"10"
-			"tall_minmode"		"7"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -407,11 +376,6 @@
 			"ypos"			"80"
 			"wide"			"0"		//6
 			"tall"			"0"	//12
-
-			"xpos_minmode"		"20"
-			"ypos_minmode"		"52"
-			"wide_minmode"		"4"
-			"tall_minmode"		"8"
 			
 			"if_multiple_trains"
 			{
@@ -450,12 +414,6 @@
 			"ypos"			"83"
 			"wide"			"30"
 			"tall"			"10"
-
-			"font_minmode"		"ItemFontAttribSmall"
-			"xpos_minmode"		"25"
-			"ypos_minmode"		"53"
-			"wide_minmode"		"20"
-			"tall_minmode"		"7"
 			
 			"if_multiple_trains"
 			{
@@ -481,14 +439,10 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Blocked"	
 			"xpos"			"35"
-			"xpos_minmode"		"23"
 			"ypos"			"82"
-			"ypos_minmode"		"53"
 			"zpos"			"2"
 			"wide"			"10"
-			"wide_minmode"		"7"
 			"tall"			"10"
-			"tall_minmode"		"7"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -528,11 +482,6 @@
 			"ypos"				"13"
 			"wide"				"100"
 			"tall"				"65"
-
-			"xpos_minmode"			"9"
-			"ypos_minmode"			"8"	
-			"wide_minmode"			"65"
-			"tall_minmode"			"42"
 			
 			"if_multiple_trains"
 			{
@@ -557,11 +506,6 @@
 				"ypos"				"24"
 				"wide"				"35"
 				"tall"				"42"
-
-				"xpos_minmode"			"0"
-				"ypos_minmode"			"0"
-				"wide_minmode"			"35"
-				"tall_minmode"			"42"
 				
 				"if_multiple_trains"
 				{
@@ -577,15 +521,11 @@
 				"ControlName"		"Label"
 				"fieldName"			"ProgressText"
 				"font"				"DefaultSmall"
-				"font_minmode"			"DefaultVerySmall"
 				"xpos"				"0"
 				"ypos"				"8"
-				"ypos_minmode"			"3"
 				"zpos"				"23"
 				"wide"				"54"
-				"wide_minmode"			"35"
 				"tall"				"40"
-				"tall_minmode"			"28"
 				"autoResize"		"0"
 				"pinCorner"			"0"
 				"visible"			"0"
@@ -620,10 +560,6 @@
 				"ypos"				"28"
 				"wide"				"28"
 				"tall"				"28"
-
-				"ypos_minmode"			"2"	
-				"wide_minmode"			"31"			
-				"tall_minmode"			"31"	
 				
 				"if_multiple_trains"
 				{
@@ -652,11 +588,6 @@
 				"ypos"			"32"
 				"wide"			"18"
 				"tall"			"18"
-
-				"xpos_minmode"		"8"
-				"ypos_minmode"		"8"
-				"wide_minmode"		"20"
-				"tall_minmode"		"20"
 				
 				"if_multiple_trains"
 				{

@@ -1,7 +1,3 @@
-
-#base     "WAVES/spectatortournament - waves.res"
-
-
 "Resource/UI/SpectatorTournament.res"
 {
 	"specgui"
@@ -29,6 +25,9 @@
 			"wide"			"128"
 			"tall"			"28"
 			"zpos"			"1"
+			
+			"color_ready"	"0 255 0 220"
+			"color_notready"	"0 0 0 220"
 
 			"playername"
 			{
@@ -97,7 +96,23 @@
 
 		
 		
-
+			"HealthIcon"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"HealthIcon"
+				"xpos"				"16"
+				"ypos"				"-3"
+				"zpos"				"83"
+				"wide"				"100"
+				"tall"				"35"
+				"visible"			"1"
+				"enabled"			"1"	
+				"HealthBonusPosAdj"	"218"
+				"HealthDeathWarning"		"0.49"
+				"TFFont"					"Bold13"
+				"HealthDeathWarningColor"	"HUDDeathWarning"
+				"TextColor"					"HudOffWhite"
+			}
 			"HealthIcon1"
 			{
 				"ControlName"		"EditablePanel"

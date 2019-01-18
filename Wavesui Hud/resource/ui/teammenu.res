@@ -9,7 +9,6 @@
 		"zpos"				"0"
 		"wide"				"268"
 		"tall"				"26"
-		"tall_minmode"			"88"
 		"visible"			"0"		
 		"enabled"			"1"
 		"defaultbgcolor_override"	"20 20 20 245"

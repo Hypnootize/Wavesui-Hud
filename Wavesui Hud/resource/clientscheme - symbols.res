@@ -1,12 +1,7 @@
-
-
-//////////////////////////////////
-/// NEUTRA 
+/////////////////////////////////////////////////
+/// SYMBOLS 
 /// FONT IMPLEMENTATION
 /////////////////////////////////////////////////
-
-
-
 
 
 Scheme
@@ -14,9 +9,7 @@ Scheme
 	Fonts
 	{
 
-
-
-//// SOSA SYMBOL FONT SHIT  ///////////////////////////////////
+	///////////////////// SOSA SYMBOL FONT SHIT  /////////////////////
 
 		"sosa9"
 		{
@@ -142,8 +135,7 @@ Scheme
 			}
 		}
 
-
-//// ENTYPO FONT MORE SYMBOL SHIT  ////////////////////////////////////
+	///////////////////// ENTYPO SYMBOL FONT SHIT  /////////////////////
 
 		"entypo12"
 		{
@@ -225,13 +217,39 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"entypo32"
+		{
+			"1"
+			{
+				"name"		"Entypo"
+				"tall"		"32"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+		"entypo36"
+		{
+			"1"
+			{
+				"name"		"Entypo"
+				"tall"		"36"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+		"entypo40"
+		{
+			"1"
+			{
+				"name"		"Entypo"
+				"tall"		"40"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
 
-
-
-
-
-//// WEB SYMBOLS MORE SYMBOL SHIT  ////////////////////////////////////
-
+	///////////////////// WEB SYMBOLS FONT SHIT  /////////////////////
+	
 		"Symbols10"
 		{
 			"1"
@@ -293,7 +311,7 @@ Scheme
 			}
 		}
 
-	////  SYMBOLS BLURS  /////////////////////////////////////////////////////
+	///////////////////// WEB SYMBOLS FONT BLUR /////////////////////
 
 		"Symbols19blur"
 		{
@@ -308,7 +326,7 @@ Scheme
 		}
 
 
-//// MODERN PICTOGRAMS MORE SYMBOL SHIT  ////////////////////////////////////
+	/////////////////// PICTOGRAMS SYMBOL FONT SHIT  ///////////////////
 
 		"Pictograms10"
 		{
@@ -320,7 +338,16 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
+		"Pictograms24"
+		{
+			"1"
+			{
+				"name"		"Modern Pictograms"
+				"tall"		"24"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
 		"Pictograms32"
 		{
 			"1"
@@ -332,12 +359,7 @@ Scheme
 			}
 		}
 
-
-
-
-
-//// HUDAS FONT ICONS FOR SPY MENU  ////////////////////////////////////
-
+	///////////////////// HUDAS SYMBOL FOR SPY MENU /////////////////////
 
 		"Hudas24"
 		{
@@ -360,12 +382,8 @@ Scheme
 			}
 		}
 
-
-
-
-
-//// BLOKK FONT FOR HORIZONTAL HP ////////////////////////////////////
-		
+	/////////////////// BLOCK FONT FOR HORIZONTAL HP ///////////////////
+	
 		"Block14"
 		{
 			"1"
@@ -377,9 +395,6 @@ Scheme
 			}
 		}
 
-
-
-
 		"Paintbrush32"
 		{
 			"1"
@@ -390,33 +405,75 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
+		knuckles12
+		{
+			"1"
+			{
+				"name" "KnucklesCrosses"
+				"tall" "12"
+				"antialias" "1"
+				"additive" "0"
+				"outline" "0"
+			}
+		}
+		knuckles14
+		{
+			"1"
+			{
+				"name" "KnucklesCrosses"
+				"tall" "14"
+				"antialias" "1"
+				"additive" "0"
+				"outline" "0"
+			}
+		}
+		knuckles16
+		{
+			"1"
+			{
+				"name" "KnucklesCrosses"
+				"tall" "16"
+				"antialias" "1"
+				"additive" "0"
+				"outline" "0"
+			}
+		}
+		knuckles18
+		{
+			"1"
+			{
+				"name" "KnucklesCrosses"
+				"tall" "18"
+				"antialias" "1"
+				"additive" "0"
+				"outline" "0"
+			}
+		}
+		CustomIcons8
+		{
+			"1"
+			{
+				"name"		"Icons"
+				"tall"		"8"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		CustomIcons10
+		{
+			"1"
+			{
+				"name"		"Icons"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//////////////////////// CUSTOM FONT FILES /////////////////////////////
+	
+	
+	
 	CustomFontFiles
 	{
 		"1"
@@ -453,6 +510,16 @@ Scheme
 		{
 			"font"	"resource/fonts/RissaTypeface.ttf"
 			"name"	"RissaTypeface"
+		}
+		"8"
+		{
+			"font" 	"resource/fonts/KnucklesCrosses.ttf"
+			"name" 	"KnucklesCrosses"
+		}
+		"9"
+		{
+			"font" 		"resource/fonts/Icons.ttf"
+			"name" 		"Icons"
 		}
 	}	
 }

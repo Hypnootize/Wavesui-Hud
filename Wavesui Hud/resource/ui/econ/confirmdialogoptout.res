@@ -15,6 +15,8 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
+		"paintbackground"		"1"
+		"bgcolor_override"	"DARKMEDBLUGRAY"
 	}
 	
 	"TitleLabel"
@@ -52,7 +54,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "SOFTLITERED"
 	}
 		
 	"CancelButton"
@@ -63,7 +65,7 @@
 		"ypos"			"185"
 		"zpos"			"20"
 		"wide"			"100"
-		"tall"			"25"
+		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -78,6 +80,14 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
 	}		
 
 	"ConfirmButton"
@@ -88,7 +98,7 @@
 		"ypos"			"185"
 		"zpos"			"20"
 		"wide"			"175"
-		"tall"			"25"
+		"tall"			"32"
 		"default"		"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -104,6 +114,14 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
 	}			
 	
 	"OptOutCheckbox"

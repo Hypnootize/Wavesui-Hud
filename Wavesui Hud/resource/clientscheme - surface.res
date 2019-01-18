@@ -1,12 +1,7 @@
-
-
-//////////////////////////////////
-/// Surface 
+/////////////////////////////////////////////////
+/// SURFACE
 /// FONT IMPLEMENTATION
 /////////////////////////////////////////////////
-
-
-
 
 
 Scheme
@@ -14,7 +9,8 @@ Scheme
 	Fonts
 	{
 
-//// NEUTRA LIGHT //////////////////////////////////////
+	//////////////////////////// NEUTRA LIGHT ////////////////////////////
+	
 		"Light8"
 		{
 			"1"
@@ -69,8 +65,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
-		
 		"Light22"
 		{
 			"1"
@@ -107,9 +101,9 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
-
-	//// LIGHT BLURS ////////////////////////
+		
+	//////////////////////////// LIGHT BLUR ////////////////////////////
+	
 		"Light8blur"
 		{
 			"1"
@@ -121,11 +115,7 @@ Scheme
 			}
 		}
 		
-
-
-
-
-//// NEUTRA SEMILIGHT (BOOK) //////////////////////////////////////
+	////////////////////// NEUTRA SEMILIGHT (BOOK) //////////////////////
 
 		"SemiLight8"
 		{
@@ -228,7 +218,7 @@ Scheme
 			}
 		}
 
-	//// SEMILIGHT BLURS ////////////////////////
+	/////////////////////// NEUTRA SEMILIGHT BLUR ///////////////////////
 
 		"SemiLight9blur"
 		{
@@ -240,10 +230,8 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		
-
-
-////  NEUTRA MEDIUM (DEMI)  ////////////////////////////////////////
+	
+	//////////////////////// NEUTRA MEDIUM (DEMI) ////////////////////////
 
 		"Medium10"
 		{
@@ -302,7 +290,7 @@ Scheme
 		}
 
 
-//// NEUTRA BOLD //////////////////////////////////////
+	//////////////////////////// NEUTRA BOLD ////////////////////////////
 
 		"Bold8"
 		{
@@ -471,67 +459,66 @@ Scheme
 			}
 		}
 
-	//// BOLD BLURS ////////////////////////
+	///////////////////////// NEUTRA BOLD BLUR //////////////////////////
 
-			"Bold38blur"   //hp ammo
+		"Bold38blur"   //hp ammo
+		{
+			"1"
 			{
-				"1"
-				{
-					"name"		"surface-medium"
-					"tall"		"38"
-					"antialias"	"1"
-					"blur"		"1"
-				}
+				"name"		"surface-medium"
+				"tall"		"38"
+				"antialias"	"1"
+				"blur"		"1"
 			}
+		}
 
-	//// BOLD OUTLINES ///////////////////////////////////
+	//////////////////////// NEUTRA BOLD OUTLINE /////////////////////////
 
-			"Bold18outline"   //hp ammo
+		"Bold18outline"   //hp ammo
+		{
+			"1"
 			{
-				"1"
-				{
-					"name"		"surface-medium"
-					"tall"		"18"
-					"antialias"	"1"
-					"outline"		"1"
-				}
+				"name"		"surface-medium"
+				"tall"		"18"
+				"antialias"	"1"
+				"outline"		"1"
 			}
-			"Bold20outline"   //hp ammo
+		}
+		"Bold20outline"   //hp ammo
+		{
+			"1"
 			{
-				"1"
-				{
-					"name"		"surface-medium"
-					"tall"		"20"
-					"antialias"	"1"
-					"outline"		"1"
-				}
+				"name"		"surface-medium"
+				"tall"		"20"
+				"antialias"	"1"
+				"outline"		"1"
 			}
+		}
 
-	//// BOLD DROPSHADOW ///////////////////////////////////
+	////////////////////// NEUTRA BOLD DROPSHADOW ///////////////////////
 
-			"Bold18dropshadow"   //hp ammo
+		"Bold18dropshadow"   //hp ammo
+		{
+			"1"
 			{
-				"1"
-				{
-					"name"		"surface-medium"
-					"tall"		"18"
-					"antialias"	"1"
-					"dropshadow"		"1"
-				}
+				"name"		"surface-medium"
+				"tall"		"18"
+				"antialias"	"1"
+				"dropshadow"		"1"
 			}
-			"Bold20dropshadow"   //hp ammo
+		}
+		"Bold20dropshadow"   //hp ammo
+		{
+			"1"
 			{
-				"1"
-				{
-					"name"		"surface-medium"
-					"tall"		"20"
-					"antialias"	"1"
-					"dropshadow"		"1"
-				}
+				"name"		"surface-medium"
+				"tall"		"20"
+				"antialias"	"1"
+				"dropshadow"		"1"
 			}
+		}
 
-
-//// NEUTRA DISPLAY ALLCAPS //////////////////////////////////////
+	////////////////////// NEUTRA ALLCAPS ///////////////////////
 
 		"Caps10"
 		{
@@ -598,12 +585,7 @@ Scheme
 			}
 		}
 
-
-
-
-
-
-/// TARGETID UBERCHARGE - bc numbers only fonts/////////////
+	/////////////// TARGETID UBERCHARGE (NUMBERS ONLY) /////////////////
 		
 		"Ubercharge10"
 		{
@@ -618,36 +600,9 @@ Scheme
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		
+		
+		
 
 
 ////////////////////////////////////////////////////////////////////

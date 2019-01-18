@@ -33,8 +33,7 @@
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
 		"xpos"			"0"
-		"ypos"			"r-2270"	[$WIN32]	
-		"ypos_minmode"	"r-2220"
+		"ypos"			"r-2270"
 		"tall"			"0"	
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -47,8 +46,7 @@
 		"ControlName"		"Panel"
 		"fieldName"		"bottombarblank"
 		"xpos"			"0"
-		"ypos"			"r-270"	[$WIN32]		
-		"ypos_minmode"	"r-220"
+		"ypos"			"r-270"	[$WIN32]
 		"tall"			"0"		
 		"wide"			"f0"
 		"autoResize"	"0"
@@ -106,7 +104,6 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"visible_minmode"		"0"
 		"enabled"		"0"
 		"labelText"		"map: cp_bridge"
 		"textAlignment"		"east"
@@ -130,16 +127,10 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"center"
-		"textAlignment_lodef"		"north-west"
 		"font"			"SpectatorKeyHints"
-		"font_hidef"	"HudFontSmallest"
-		"font_lodef"	"HudFontSmall"
-		"wrap_lodef"			"1"
 	}
 	"SwitchCamModeKeyLabel"
 	{
@@ -152,7 +143,6 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"0"
 		"labelText"		"#TF_Spectator_ChangeTeam"
@@ -203,8 +193,6 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_CycleTargetFwd"
 		"textAlignment"		"west"
@@ -239,7 +227,6 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_CycleTargetRev"
 		"textAlignment"		"west"
@@ -256,7 +243,6 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"visible_minmode"		"0"
 		"enabled"		"0"
 		"labelText"		"%tip%"
 		"textAlignment"		"center"	[$WIN32]

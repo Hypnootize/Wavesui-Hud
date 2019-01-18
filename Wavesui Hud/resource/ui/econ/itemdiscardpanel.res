@@ -1,3 +1,5 @@
+#base "../../../resource/tools/ReloadSchemeButton.res"
+
 "Resource/UI/ItemDiscardPanel.res"
 {
 	"item_discard"

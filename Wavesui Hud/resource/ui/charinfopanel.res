@@ -1,6 +1,13 @@
+#base "../../resource/tools/ReloadSchemeButton.res"
+
 "Resource/UI/CharInfoPanel.res"
 {
-
+	"ReloadSchemeButton"
+	{
+		"xpos"				"0"
+		"ypos"				"23"
+	}
+	
 	////////////////////////////////////////////////////////
 	///  BACK BUTTON PAGE AND TOP TITLEBAR SHIT
 	///////////////////////////////////////////////////////////
@@ -10,7 +17,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TitleBarBG"
 		"xpos"			"-10"
-		"ypos"			"13"
+		"ypos"			"7"
 		"zpos"			"30"
 		"wide"			"2000"
 		"tall"			"36"
@@ -178,7 +185,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"crspItems"
 		"xpos"			"24"
-		"ypos"			"21"
+		"ypos"			"16"
 		"zpos"			"932"
 		"wide"			"100"
 		"tall"			"26"
@@ -235,7 +242,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
 		"xpos"			"r28"
-		"ypos"			"26"
+		"ypos"			"21"
 		"zpos"			"940"
 		"wide"			"100"
 		"tall"			"16"
@@ -262,7 +269,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton2"
 		"xpos"			"r44"
-		"ypos"			"28"		
+		"ypos"			"23"		
 		"zpos"			"940"
 		"wide"			"19"
 		"tall"			"14"
@@ -289,7 +296,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButtonBind"
 		"xpos"			"r41"
-		"ypos"			"28"		
+		"ypos"			"23"		
 		"zpos"			"941"
 		"wide"			"16"
 		"tall"			"15"

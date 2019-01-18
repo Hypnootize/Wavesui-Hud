@@ -374,12 +374,14 @@
 		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"		"c-85"
+			"ypos"		"r80"
 		}
 		
 		"if_hybrid_double"
 		{
 			"xpos"		"c-115"
+			"ypos"		"r100"
 		}
 
 		"if_specialdelivery"
@@ -404,7 +406,7 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-				
+		
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -413,12 +415,14 @@
 		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"		"c-85"
+			"ypos"		"r80"
 		}
 		
 		"if_hybrid_double"
 		{
 			"xpos"		"c-45"
+			"ypos"		"r100"
 		}
 
 		"if_specialdelivery"

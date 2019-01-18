@@ -13,9 +13,7 @@
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
 		"xpos"				"0"
-		"xpos_minmode"		"20"
 		"ypos"				"0"
-		"ypos_minmode"		"-14"
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"150"
@@ -32,9 +30,7 @@
 		if_match
 		{
 			"xpos"				"27"
-			"xpos_minmode"		"27"
 			"ypos"				"-5"
-			"ypos_minmode"		"-5"
 		}
 		
 		"TimePanelValue"
@@ -54,22 +50,6 @@
 			"ypos"			"11"
 			"wide"			"45"
 			"tall"			"31"
-
-			"font_minmode"	"Bold14"
-			"xpos_minmode"	"18"
-			"ypos_minmode"	"22"
-			"wide_minmode"	"48"
-			"tall_minmode"	"31"
-
-			if_match
-			{
-				"font"			"Bold12"
-				"font_minmode"	"Bold12"
-				"xpos_minmode"	"23"
-				"ypos_minmode"	"11"
-				"wide_minmode"	"45"
-				"tall_minmode"	"31"
-			}
 		}	
 	}
 
@@ -78,9 +58,7 @@
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
 		"xpos"				"90"
-		"xpos_minmode"		"70"
 		"ypos"				"0"
-		"ypos_minmode"		"-14"
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"150"
@@ -116,22 +94,6 @@
 			"ypos"			"11"
 			"wide"			"45"
 			"tall"			"31"
-
-			"font_minmode"	"Bold14"
-			"xpos_minmode"	"25"
-			"ypos_minmode"	"22"
-			"wide_minmode"	"48"
-			"tall_minmode"	"31"
-
-			if_match
-			{
-				"font"			"Bold12"
-				"font_minmode"	"Bold12"
-				"xpos_minmode"	"23"
-				"ypos_minmode"	"11"
-				"wide_minmode"	"45"
-				"tall_minmode"	"31"
-			}
 		}	
 	}
 	
@@ -151,11 +113,6 @@
 		"ypos"			"10"
 		"wide"			"58"
 		"tall"	 		"35"
-
-		"xpos_minmode"		"0"
-		"ypos_minmode"		"10"
-		"wide_minmodee"		"42"
-		"tall_minmode"		"35"
 
 		"border"		"MaterialBorderDARKMEDBLUGRAY"
 		"image"				"replay/thumbnails/materialPanel"
@@ -194,11 +151,6 @@
 		"ypos"		"12"
 		"wide"		"50"
 		"tall"		"30"
-
-		"xpos_minmode"		"98"
-		"ypos_minmode"		"12"
-		"wide_minmode"		"40"
-		"tall_minmode"		"25"
 		
 		if_match
 		{
@@ -226,11 +178,6 @@
 		"ypos"		"12"
 		"wide"		"50"
 		"tall"		"30"
-
-		"xpos_minmode"		"42"
-		"ypos_minmode"		"12"
-		"wide_minmode"		"40"
-		"tall_minmode"		"25"
 		
 		if_match
 		{

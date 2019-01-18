@@ -46,7 +46,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"WHITEY"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		"model_xpos"	"2"
@@ -86,12 +86,12 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		
-		"fgcolor_override"	"117 107 94 255"
+		"fgcolor_override"	"WHITEY"
 		"bgcolor_override"	"251 235 202 0"
 		"disabledFgColor_override" "117 107 94 0"
 		"disabledBgColor_override" "251 235 202 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "117 107 94 255"
+		"selectionTextColor_override" "WHITEY"
 		"defaultSelectionBG2Color_override" "251 235 202 255"
 	}
 		
@@ -118,6 +118,14 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
 	}
 	
 	"OkButton"
@@ -143,5 +151,13 @@
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
 	}
 }

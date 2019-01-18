@@ -1,26 +1,4 @@
-
-
-///  IMPORT CROSSHAIR HUDLAYOUT
-#base 	"hudlayout - xhairs.res"
-
-
-
-
-
-
-////////////////////////////////////////
-///  USE // TO TURN THE RED THINGS
-///  ON or OFF
-///  THAT INDICATE YOU TOOK DAMAGE
-
-
-	#base 		"hudlayout - damageindicatorON.res"
-	//#base 		"hudlayout - damageindicatorOFF.res"
-
-
-
-
-
+#base "../scripts/Crosshairs/crosshairs.res"
 
 "Resource/HudLayout.res"
 {
@@ -142,12 +120,10 @@
 		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
-		"tall"			"8"
+		"wide"			"0"
+		"wide_minmode"	"0"
+		"tall"			"0"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -450,6 +426,20 @@
 		"TextColor"	"255 170 0 220"
 
 		"PaintBackgroundType"	"2"
+	}
+	
+	HudDamageIndicator
+	{
+		"fieldName"					"HudDamageIndicator"
+		"visible"					"1"
+		"enabled"					"1"	
+		"MinimumWidth"				"11"
+		"MaximumWidth"				"11"
+		"StartRadius"				"80"
+		"EndRadius"					"80"
+		"MinimumHeight"				"30"
+		"MaximumHeight"				"60"
+		"MinimumTime"				"1"
 	}
 
 	HudCommentary
@@ -884,6 +874,7 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"215"
+		"zpos"					"20"
 		"wide"					"f0"
 		"tall"					"300"
 
@@ -897,6 +888,7 @@
 		"enabled"				"1"
 		"xpos"					"c-225"
 		"ypos"					"250"
+		"zpos"					"20"
 		"wide"					"450"
 		"tall"					"218"
 	}
@@ -908,6 +900,7 @@
 		"enabled"				"1"
 		"xpos"					"c-150"
 		"ypos"					"255"
+		"zpos"					"20"
 		"wide"					"300"
 		"tall"					"215"
 	}
@@ -918,13 +911,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-133"
-		"xpos_lodef"			"c-190"
-		"ypos"				"270"
-		"ypos_lodef"			"250"
-		"wide"					"266"
-		"wide_lodef"			"400"
-		"tall"					"120"
-		"tall_lodef"			"190"
+		"ypos"					"270"
+		"wide"					"0"
+		"tall"					"0"
 	}
 	
 	FreezePanel
@@ -945,8 +934,8 @@
 		"enabled"				"1"
 		"xpos"					"200"
 		"ypos"					"200"
-		"wide"					"100"
-		"tall"					"50"
+		"wide"					"0"
+		"tall"					"0"
 	}
 
 	AnnotationsPanelCallout
@@ -1008,6 +997,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-225"
 		"ypos"			"c-55"
+		"zpos"			"20"
 		"wide"			"450"
 		"tall"			"195"
 		"zpos"			"20"
@@ -1021,6 +1011,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-225"
 		"ypos"			"c-59"
+		"zpos"			"20"
 		"wide"			"450"
 		"tall"			"200"
 		"zpos"			"20"
@@ -1034,6 +1025,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-125"
 		"ypos"			"c-55"
+		"zpos"			"20"
 		"wide"			"250"
 		"tall"			"195"
 		"zpos"			"20"
@@ -1047,12 +1039,10 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
+		"zpos"			"20"
 		"wide"			"470"
 		"zpos"			"20"
-		"tall"			"200"	[$WIN32]
-		"tall"			"180"	[$X360]
+		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}	
 	
@@ -1078,9 +1068,8 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"65"
-		"ypos_lodef"			"75"
-		"wide"					"320"
-		"tall"					"100"
+		"wide"					"0"
+		"tall"					"0"
 	}
 
 
@@ -1091,9 +1080,8 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"15"
-		"ypos_lodef"			"75"
-		"wide"					"320"
-		"tall"					"245"
+		"wide"					"0"
+		"tall"					"0"
 	}
 
 	HudTeamSwitch
@@ -1427,8 +1415,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
+		"zpos"			"20"
 		"wide"			"470"
 		"tall"			"200"
 		"zpos"			"20"

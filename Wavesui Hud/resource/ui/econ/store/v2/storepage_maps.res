@@ -87,14 +87,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"96 90 85 255"
+		"fgcolor"		"VERYBRIGHTGRAY"
 	}
 	
 	"LearnMoreButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"LearnMoreButton"
-		"xpos"			"c175"
+		"xpos"			"c177"
 		"ypos"			"20"
 		"zpos"			"5"
 		"wide"			"120"
@@ -112,5 +112,13 @@
 		"Command"		"maps_learnmore"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
 	}	
 }

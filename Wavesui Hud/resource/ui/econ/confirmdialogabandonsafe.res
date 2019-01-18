@@ -16,7 +16,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"Econ.Dialog.BgColor"
+		"bgcolor_override"	"DARKMEDBLUGRAY"
 	}
 	
 	"TitleLabel"
@@ -35,7 +35,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "SOFTLITERED"
 	}
 	
 	"ExplanationLabel"
@@ -55,7 +55,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "WHITEY"
 	}
 		
 	"CancelButton"
@@ -66,7 +66,7 @@
 		"ypos"			"165"
 		"zpos"			"20"
 		"wide"			"100"
-		"tall"			"25"
+		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -81,12 +81,28 @@
 		"Command"		"cancel"
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		"border_default"			"Econ.Button.Border.Default"
-		"border_armed"				"Econ.Button.Border.Armed"
-		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
-		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
-		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
+	}
+	
+	"CancelButtonHintIcon"
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"CancelButtonHintIcon"
+		"xpos"			"195"
+		"ypos"			"165"
+		"zpos"			"25"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"
+		"actionSet"		"MenuControls"
+		"actionName"	"menu_cancel"
 	}		
 
 	"ConfirmButton"
@@ -97,7 +113,7 @@
 		"ypos"			"165"
 		"zpos"			"20"
 		"wide"			"175"
-		"tall"			"25"
+		"tall"			"32"
 		"default"		"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -113,11 +129,27 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"			"Econ.Button.Border.Default"
-		"border_armed"				"Econ.Button.Border.Armed"
-		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
-		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
-		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
-	}			
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
+	}
+	
+	"ConfirmButtonHintIcon"
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"ConfirmButtonHintIcon"
+		"xpos"			"15"
+		"ypos"			"165"
+		"zpos"			"25"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"
+		"actionSet"		"MenuControls"
+		"actionName"	"menu_select"
+	}					
 }

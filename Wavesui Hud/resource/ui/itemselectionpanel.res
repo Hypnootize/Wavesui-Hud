@@ -1,3 +1,5 @@
+#base "../../resource/tools/ReloadSchemeButton.res"
+
 "Resource/UI/ItemSelectionPanel.res"
 {
 
@@ -134,8 +136,8 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
-		"xpos"			"c+299"
-		"ypos"			"72"
+		"xpos"			"c181"
+		"ypos"			"103"
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"20"
@@ -150,8 +152,8 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
-		"xpos"		"c+299"
-		"ypos"			"87"
+		"xpos"		"c181"
+		"ypos"			"118"
 		"zpos"		"2"
 		"wide"		"90"
 		"tall"		"19"
@@ -163,12 +165,11 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"117 107 94 255"
+		"fgcolor_override"	"WHITEY"
 		"bgcolor_override"	"12 14 16 255"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmallest"
 	}
-				
 		
 	"ItemSlotLabel"
 	{
@@ -197,7 +198,7 @@
 		"labelText"		"#NoItemsToEquip"
 		"textAlignment"	"west"
 		"xpos"			"c-14"
-		"ypos"			"85"
+		"ypos"			"80"
 		"zpos"			"10"
 		"wide"			"600"
 		"tall"			"30"
@@ -205,7 +206,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "SOFTORANGE"
 	}
 
 	"OnlyAllowUniqueQuality"
@@ -232,7 +233,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowBackpack"
-		"xpos"			"c140"
+		"xpos"			"c133"
 		"ypos"			"34"
 		"zpos"			"20"
 		"wide"			"200"
@@ -271,7 +272,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowSelection"
-		"xpos"			"c140"
+		"xpos"			"c133"
 		"ypos"			"34"
 		"zpos"			"20"
 		"wide"			"200"
@@ -322,7 +323,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomBP2"
-		"xpos"			"c188"
+		"xpos"			"c181"
 		"ypos"			"79"
 		"zpos"			"19"
 		"wide"			"160"
@@ -333,7 +334,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"3"
-		"font"			"ModPic24"
+		"font"			"Pictograms24"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"use_proportional_insets" "1"
@@ -371,35 +372,6 @@
 			"scaleImage"	"1"
 			"image"			"glyph_options"
 		}			
-	}
-
-
-	
-
-
-	"ReloadSchemeButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ReloadSchemeButton"
-		"xpos"			"c100" //c100
-		"ypos"			"380"
-		"zpos"			"20"
-		"wide"			"200"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"RELOADSCHEME"
-		"font"			"HudFontSmallestBold"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"reloadscheme"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 

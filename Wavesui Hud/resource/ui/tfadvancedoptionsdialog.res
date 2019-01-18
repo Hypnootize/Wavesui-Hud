@@ -41,7 +41,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "SOFTORANGE"
 	}
 	"CancelButton"
 	{
@@ -51,7 +51,7 @@
 		"ypos"			"310"
 		"zpos"			"1"
 		"wide"			"100"
-		"tall"			"25"
+		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -63,9 +63,18 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
+		"AllCaps"		"1"
 		"Command"		"Close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
 	}
 	"OkButton"
 	{
@@ -75,7 +84,7 @@
 		"ypos"			"310"
 		"zpos"			"1"
 		"wide"			"100"
-		"tall"			"25"
+		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"

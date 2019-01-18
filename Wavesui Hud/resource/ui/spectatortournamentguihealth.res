@@ -1,11 +1,5 @@
-
-
-#base     "WAVES/spectatortournamentguihealth - waves.res"
-
-
 "Resource/UI/SpectatorTournamentGUIHealth.res"
 {
-
 	"HealthBarBG"
 	{
         "ControlName"   "EditablePanel"
@@ -23,12 +17,17 @@
 
 	"PlayerStatusHealthBonusImage"
 	{
-		"xpos"          "11100" //100
-        "ypos"          "-50"   
-        "wide"          "100"
-        "tall"          "100"
-        "image"         "replay/thumbnails/bg_green"
-        "alpha"         "225"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthBonusImage"
+		"xpos"			"44444"
+		"ypos"			"4"
+		"zpos"			"3"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/health_over_bg"
+		"scaleImage"	"1"	
 	}
 
 
@@ -115,7 +114,20 @@
 		"scaleImage"	"0"	
 	}	
 	
-
+	"HPbarBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HPbarBG"
+		"xpos"			"-34"
+		"ypos"			"5"
+		"zpos"			"-1"
+		"wide"			"91"
+		"tall"			"16"
+		"visible"		"0"
+		"enabled"		"1"
+		"fillcolor"		"32 32 32 255" //OverhealGreen_Custom transparent
+		"alpha"			"255"
+	}
 	"HPBG"
 	{
 		"ControlName"	"ImagePanel"

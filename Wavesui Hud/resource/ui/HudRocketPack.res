@@ -7,9 +7,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-70"	[$WIN32]
-		"xpos_minmode"	"r72"	[$WIN32]
 		"ypos"			"r128"	[$WIN32]
-		"ypos_minmode"	"r54"	[$WIN32]
 		"wide"			"140"
 		"tall"			"50"
 		"MeterFG_override"		"YELLOWGOLD"
@@ -26,14 +24,11 @@
 		"wide"			"100"
 		"tall"			"0"
 		"visible"		"0"
-		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz1_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"		
 	}
 	
 	"ItemEffectMeterLabel"
@@ -48,10 +43,6 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"0"
-		"visible_minmode"		"0"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
-		"textAlignment_minmode"			"west"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_RocketPack_Disabled"
@@ -81,11 +72,6 @@
 		"ypos"					"2"
 		"wide"					"70"
 		"tall"					"2"
-
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
-		"wide_minmode"			"15"
-		"tall_minmode"			"1"
 	}
 	
 	"ItemEffectMeter2"
@@ -108,10 +94,5 @@
 		"ypos"					"2"
 		"wide"					"70"
 		"tall"					"2"
-
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"16"
-		"wide_minmode"			"14"
-		"tall_minmode"			"1"
 	}
 }

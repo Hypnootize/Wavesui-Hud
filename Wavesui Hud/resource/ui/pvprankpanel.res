@@ -255,8 +255,8 @@
 			"fonts"
 			{
 				"0"		"Bold16"
-				"1"		"Bold16"
-				"2"		"Bold16"
+				"1"		"Bold12"
+				"2"		"Bold12"
 			}
 		}
 
@@ -290,8 +290,8 @@
 			"fonts"
 			{
 				"0"		"Bold16"
-				"1"		"Bold16"
-				"2"		"Bold16"
+				"1"		"Bold12"
+				"2"		"Bold12"
 			}
 
 			"colors"
@@ -381,8 +381,8 @@
 						"ControlName"	"ProgressBar"
 						"fieldName"		"ProgressBar"
 						"xpos"			"0"
-						"ypos"			"cs-0.5"
-						"wide"			"f0"
+						"ypos"			"0"
+						"wide"			"0"
 						"tall"			"f-2"
 						"zpos"			"1"
 						"proportionaltoparent"	"1"
@@ -412,8 +412,8 @@
 						"fieldName"		"Frame"
 						"xpos"			"0"
 						"ypos"			"0"
-						"wide"			"f0"
-						"tall"			"f0"
+						"wide"			"0"
+						"tall"			"0"
 						"zpos"			"5"
 						"proportionaltoparent"	"1"
 						"border"		"InnerShadowBorderThin"

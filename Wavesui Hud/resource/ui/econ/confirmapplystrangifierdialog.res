@@ -12,7 +12,7 @@
 		"bgcolor_override"		"46 43 42 0"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"GrayDialogBorder"
+		"border"		"MaterialBorderDARKMEDBLUGRAY"
 	}
 
 	"mouseoveritempanel"
@@ -100,8 +100,8 @@
 		"xpos"			"10"
 		"ypos"			"10"
 		"zpos"			"2"
-		"wide"			"16"
-		"tall"			"16"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"backpack_jewel_modify_target_b_g"
@@ -135,6 +135,7 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+			"inventory_image_type"	"1"
 		}
 	}	
 	"SubjectBG"
@@ -163,8 +164,8 @@
 		"xpos"			"300"
 		"ypos"			"10"
 		"zpos"			"2"
-		"wide"			"16"
-		"tall"			"16"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"backpack_jewel_modify_target_b_g"
@@ -197,6 +198,7 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+			"inventory_image_type"	"1"
 		}
 	}	
 	
@@ -216,7 +218,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "SOFTLITERED"
 		"centerwrap"	"1"
 	}
 
@@ -228,7 +230,7 @@
 		"ypos"			"200"
 		"zpos"			"1"
 		"wide"			"130"
-		"tall"			"25"
+		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -243,6 +245,14 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
 	}
 	
 	"OkButton"
@@ -253,7 +263,7 @@
 		"ypos"			"200"
 		"zpos"			"1"
 		"wide"			"130"
-		"tall"			"25"
+		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -268,5 +278,13 @@
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
 	}
 }

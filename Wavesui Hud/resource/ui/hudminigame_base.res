@@ -1,126 +1,151 @@
 "Resource/UI/HudMiniGame_Base.res"
 {
-	"LeftSideBG"
+	"LeftSideBG" //blueteam
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"r77"
+		"xpos"			"c-140"
+		"ypos"			"r26"	[$WIN32]
 		"zpos"			"1"
-		"wide"			"280"
-		"tall"			"80"
+		"wide"			"140"
+		"tall"			"27"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_left"
+		"image"			"replay/thumbnails/materialPanel"
 		"scaleImage"	"1"	
-	}
 
-	"RightSideBG"
+		"border"		"MaterialBorderBLUTEAM"
+		"paintbackground"	"0"
+	}
+		
+	"RightSideBG" //redteam
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"r77"
+		"xpos"			"c0"
+		"ypos"			"r26"	[$WIN32]
 		"zpos"			"1"
-		"wide"			"280"
-		"tall"			"80"
+		"wide"			"140"
+		"tall"			"27"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_right"
+		"image"			"replay/thumbnails/materialPanel"
 		"scaleImage"	"1"	
+
+		"border"		"MaterialBorderREDTEAM"
+		"paintbackground"	"0"
 	}
 		
-	"OutlineBG"
+	"OutlineBG"		//I HIDE THIS
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"OutlineBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"r77"
+		"xpos"			"c-140"
+		"ypos"			"r75"	[$WIN32]
+		"ypos"			"r96"	[$X360]
 		"zpos"			"2"
 		"wide"			"280"
 		"tall"			"80"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_outline"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-110"
-		"ypos"			"r49"
+		"xpos"			"c-129"
+		"ypos"			"r31"
 		"zpos"			"8"
 		"wide"			"75"
-		"tall"			"35"
+		"tall"			"33"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"HudFontBig"
-		"fgcolor"		"TanLight"
+		"font"			"Bold20"
+		"fgcolor"		"WHITEY"
 	}	
 		
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-108"
-		"ypos"			"r48"
+		"xpos"			"c-128"
+		"ypos"			"r30"
 		"zpos"			"7"
 		"wide"			"75"
-		"tall"			"35"
+		"tall"			"33"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"HudFontBig"
-		"fgcolor"		"Black"
+		"font"			"Bold20"
+		"fgcolor"		"OPAQUESHADOW"
 	}	
-							
+	
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c37"
-		"ypos"			"r49"
+		"xpos"			"c56"
+		"ypos"			"r31"
 		"zpos"			"8"
 		"wide"			"75"
-		"tall"			"35"
+		"tall"			"33"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"HudFontBig"
-		"fgcolor"		"TanLight"		
+		"font"			"Bold20"
+		"fgcolor"		"WHITEY"
 	}	
 		
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"c39"
-		"ypos"			"r48"
+		"xpos"			"c57"
+		"ypos"			"r30"
 		"zpos"			"7"
 		"wide"			"75"
-		"tall"			"35"
+		"tall"			"33"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"HudFontBig"
-		"fgcolor"		"Black"		
+		"font"			"Bold20"
+		"fgcolor"		"OPAQUESHADOW"
 	}	
-															
+	
+	"OutlineImage"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"OutlineImage"
+		"xpos"			"c-50"
+		"ypos"			"r127"
+		"zpos"			"9"
+		"wide"			"100"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/objectives_flagpanel_carried_outline"
+		"scaleImage"	"1"	
+	}		
+	
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"cs-0.5"
-		"ypos"			"r30"
-		"zpos"			"7"
-		"wide"			"140"
+		"xpos"			"c-70"	[$WIN32]
+		"xpos"			"c-60"	[$X360]
+		"ypos"			"r28"	[$WIN32]
+		"ypos"			"r48"	[$X360]
+		"zpos"			"4"
+		"wide"			"140"	[$WIN32]
+		"wide"			"120"	[$X360]
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -129,22 +154,25 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontSmall"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"WHITEY"
 	}	
-			
+		
 	"PlayingToBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"r33"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"38"
+		"xpos"			"c-75"	[$WIN32]
+		"ypos"			"r26"	[$WIN32]
+		"zpos"			"3"
+		"wide"			"150"	[$WIN32]
+		"tall"			"27"	[$WIN32]
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_playingto"
+		"image"			"replay/thumbnails/materialPanel"
 		"scaleImage"	"1"	
+
+		"border"		"MaterialBorderDARKMEDBLUGRAY"
+		"paintbackground"	"0"
 	}
 
 	"GameImage"
@@ -154,8 +182,8 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"r74"
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"50"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""

@@ -1,51 +1,57 @@
 "GameMenu"
 {
-
-	"CrspButton"
-	{
-		"label"			"w a v e s"
-		"command"		"engine cl_disablehtmlmotd 0; say .ss"
-		"tooltip" 		"Sizzling Stats"
-	}
-
 	"ServerButton"
 	{
-		"label" "servers" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_multiplayer"
+		"label" 		"servers" 
+		"command" 		"OpenServerBrowser"
+		"subimage" 		""
 	}
 	"ItemsButton"
 	{
-		"label" "items"
-		"command" "engine open_charinfo"
-		"subimage" "glyph_items"
+		"label" 		"items"
+		"command" 		"engine open_charinfo"
+		"subimage" 		""
 	}
-	"GeneralStoreButton"
+	"StoreButton"
 	{
-		"label" "shop"
-		"command" "engine open_store"
-		"subimage" "glyph_store"
+		"label" 		"shop"
+		"command" 		"engine open_store"
+		"subimage" 		""
+	}
+	"SettingsButton"
+	{
+		"label" 		"settings"
+		"command" 		"OpenOptionsDialog"
+		"subimage" 		""
+	}
+	"AdvancedSettingsButton"
+	{
+		"label" 		"advanced"
+		"command" 		"opentf2options"
+		"subimage" 		""
 	}
 	"DemoUI"
 	{
-		"label" "demoui"
-		"command" "engine demoui"
+		"label" 		"demoui"
+		"command" 		"engine demoui"
+		"subimage" 		""
 	}
 	"ConsoleButton"
 	{
-		"label" "console"
-		"command" "engine con_enable 1;toggleconsole"
+		"label" 		"console"
+		"command"		"engine con_enable 1;toggleconsole"
+		"subimage" 		""
 	}
 	"DisconnectButton"
 	{
-		"label" "disconnect"
-		"command" "engine disconnect"
+		"label" 		"disconnect"
+		"command" 		"engine disconnect"
 		"OnlyInGame"	"1"
 	}
 	"QuitButton"
 	{
-		"label" "quit"
-		"command" "engine quit"
+		"label" 		"quit"
+		"command" 		"engine quit"
 		"OnlyAtMenu"	"1"
 	}
 

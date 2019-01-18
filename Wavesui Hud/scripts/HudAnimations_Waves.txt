@@ -1,0 +1,246 @@
+//============================================================================================================================================================================
+
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthBonusImage 			Alpha		"255"					Linear 	0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 			Alpha		"0"						Linear 	0.2 0.4
+
+	//MAIN HP
+	Animate PlayerStatusHealthValueColor 			Alpha 		"255" 					linear 	0.0 0.00
+	Animate PlayerStatusHealthValueColor 			FgColor 	"COOLBLUGREEN" 			Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueColorShadow 		Alpha 		"255" 					linear 	0.0 0.00
+	Animate PlayerStatusHealthValueColorShadow 		FgColor 	"OPAQUESHADOW" 			Accel 	0.0 0.0
+	
+	//HP MINMODE
+	Animate PlayerStatusHealthValueMinmode 			Alpha 		"255" 					Linear 	0.0 0.00
+	Animate PlayerStatusHealthValueMinmode 			FgColor 	"COOLBLUGREEN" 			Accel 	0.0 0.0
+
+	//TARGET ID
+  	Animate	TargetIDHPbox 	   						Alpha		"0"		       			Accel 	0.0 0.0
+	Animate	TargetIDHPBuff 	   						Alpha		"255"		        	Accel 	0.0 0.0
+
+	//ALT TARGET IDs
+	Animate PlayerStatusHealthValueAlt 				FgColor 	"COOLBLUGREEN" 			Accel 	0.0 0.0
+
+	//SPECHUD 
+	Animate PlayerStatusHealthValueSpec   			fgcolor 	"HPGREEN" 				Accel 	0.0 0.0
+	//Animate HPBuffBox 							alpha 		"255"					Linear 	0.0 0.00
+	//Animate HPBuffBox 							FgColor 	"HPGREEN" 				Accel 	0.0 0.0
+
+	//FREEZEPANEL
+	Animate PlayerStatusHealthValueKiller         	FgColor 	"SOFTLITEBLU"          	Linear 	0.0 0.0
+
+	RunEvent HudHealthBonusPulseLoop				0.4
+}
+
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse 					0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 					0.0
+	StopEvent HudHealthBonusPulseLoop 				0.0
+
+	//STOP MAIN HP
+	Animate PlayerStatusHealthValueColor 			Alpha 		"0"						Linear 	0.0 0.00
+	Animate PlayerStatusHealthValueColor 			FgColor 	"FULLYTRANSPARENT" 		Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueColorShadow 		Alpha 		"0"						Linear 	0.0 0.00
+	Animate PlayerStatusHealthValueColorShadow 		FgColor 	"FULLYTRANSPARENT" 		Accel 	0.0 0.0
+	
+	//STOP MINMODE HP
+	Animate PlayerStatusHealthValueMinmode 			Alpha 		"255" 					Linear 	0.0 0.00
+	Animate PlayerStatusHealthValueMinmode 			FgColor 	"WHITEY" 				Accel 	0.0 0.0
+
+	//STOP TARGET ID
+    Animate	TargetIDHPbox 	     					Alpha		"255"		           	Accel 	0.0 0.0
+    Animate	TargetIDHPBuff 	     					Alpha		"0"		          		Accel 	0.0 0.0
+
+    //STOP ALT TARGET IDs
+	Animate PlayerStatusHealthValueAlt 				FgColor 	"WHITEY" 				Accel 	0.0 0.0
+
+    //STOP SPECHUD
+    Animate PlayerStatusHealthValueSpec   			Fgcolor 	"WHITEY" 				Accel 	0.0 0.0
+    //Animate HPBuffBox 							Alpha 		"0" 					Linear 	0.0 0.00
+
+    //STOP FREEZEPANELKILLER
+    Animate PlayerStatusHealthValueKiller 			Fgcolor 	"WHITEY" 				Accel 	0.0 0.0
+}
+
+//============================================================================================================================================================================
+
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthBonusImage 			Alpha		"255"					Linear 	0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 			Alpha		"180"					Linear 	0.125 0.075
+
+	//MAIN HP
+	Animate PlayerStatusHealthValueColor 			Alpha 		"255" 					Linear 	0.0 0.00
+	Animate PlayerStatusHealthValueColor 			FgColor 	"YELLOWGOLD" 			Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueColorShadow 		Alpha 		"255" 					Linear 	0.0 0.00
+	Animate PlayerStatusHealthValueColorShadow 		FgColor 	"OPAQUESHADOW"			Accel 	0.0 0.0
+	
+	//HP MINMODE
+	Animate PlayerStatusHealthValueMinmode 			Alpha 		"255" 					Linear 	0.0 0.00
+	Animate PlayerStatusHealthValueMinmode 			FgColor 	"YELLOWGOLD" 			Accel 	0.0 0.0
+
+	//TARGET ID
+    Animate	TargetIDHPbox 	   						Alpha		"0"		        		Accel 	0.0 0.0
+	Animate	TargetIDHPLow 	   						Alpha		"255"		        	Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueTarget   		Fgcolor 	"DEEPRED" 				Accel 	0.0 0.0
+
+	//ALT TARGET IDs
+	Animate PlayerStatusHealthValueAlt 				FgColor 	"YELLOWGOLD" 			Accel 	0.0 0.0
+
+	//SPECHUD
+	Animate PlayerStatusHealthValueSpec   			Fgcolor 	"YELLOWGOLD" 			Accel	0.0 0.0
+
+	//FREEZEPANEL
+	Animate PlayerStatusHealthValueKiller         	FgColor 	"YELLOWGOLD"          	Linear 	0.0 0.0
+	
+	RunEvent HudHealthDyingPulseLoop				0.25
+}
+
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse 					0.0
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse					0.0
+	StopEvent HudHealthDyingPulseLoop 				0.0
+
+	//STOP MAIN HP
+	Animate PlayerStatusHealthValueColor			Alpha 		"0"						Linear 	0.0 0.00
+	Animate PlayerStatusHealthValueColor 			FgColor 	"OPAQUESHADOW" 			Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueColorShadow 		Alpha 		"0" 					Linear 	0.0 0.00
+	Animate PlayerStatusHealthValueColorShadow 		FgColor 	"FULLYTRANSPARENT" 		Accel 	0.0 0.0
+	
+	//STOP MINMODE HP
+	Animate PlayerStatusHealthValueMinmode 			Alpha 		"255" 					Linear 	0.0 0.00
+	Animate PlayerStatusHealthValueMinmode			FgColor 	"WHITEY" 				Accel 	0.0 0.0
+
+	//STOP TARGET ID
+	Animate	TargetIDHPbox 	     					Alpha		"255"		           	Accel 	0.0 0.0
+    Animate	TargetIDHPLow 	     					Alpha		"0"		           	   	Accel 	0.0 0.0
+    Animate PlayerStatusHealthValueTarget   		Fgcolor 	"WHITEY" 				Accel 	0.0 0.0
+
+    //STOP ALT TARGET IDs
+	Animate PlayerStatusHealthValueAlt 				FgColor 	"WHITEY" 				Accel 	0.0 0.0
+
+    //STOP SPECHUD
+    Animate PlayerStatusHealthValueSpec   			Fgcolor 	"WHITEY" 				Accel 	0.0 0.0
+
+    //STOP FREEZEPANELKILLER
+    Animate PlayerStatusHealthValueKiller 			Fgcolor 	"WHITEY" 				Accel 	0.0 0.0
+}
+
+//============================================================================================================================================================================
+
+event HudLowAmmoPulse
+{
+	Animate	HudWeaponLowAmmoImage					Alpha		"255"					Linear 	0.0 0.075
+	Animate	HudWeaponLowAmmoImage					Alpha		"0"						Linear 	0.125 0.075
+
+	Animate	AmmoInClip	   							FgColor		"SOFTLITERED"			Linear 	0.0 0.0
+	Animate	AmmoInReserve   						FgColor	    "TOMATORED"				Linear 	0.0 0.0
+	Animate	AmmoNoClip	    						FgColor		"TOMATORED"				Linear 	0.0 0.0
+	
+	RunEvent HudLowAmmoPulseLoop					0.25
+}
+
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulse 						0.0
+}
+
+event HudLowAmmoPulseStop
+{
+	StopEvent HudLowAmmoPulse 						0.0
+	StopEvent HudLowAmmoPulseLoop 					0.0
+
+	Animate	AmmoInClip	    						FgColor		"WHITEY"				Linear 	0.0 0.0
+	Animate	AmmoInReserve   						FgColor		"WHITEY"				Linear 	0.0 0.0
+	Animate	AmmoNoClip	   							FgColor		"WHITEY"				Linear 	0.0 0.0
+}
+
+//============================================================================================================================================================================
+
+event HudMedicCharged
+{
+	//UBERCHARGE METER
+	Animate	ChargeMeter 							FgColor		"SOFTLITEBLU"			Linear 	0.0 0.1
+	Animate ChargeMeter								FgColor 	"SOFTLITEBLU" 			Linear 	0.3 0.6
+
+	//UBERCHARGE LABEL
+	Animate ChargeLabelColor 						Alpha 		"255" 					Linear	0.0 0.00
+	Animate	ChargeLabelColor 						FgColor		"HPGREEN"				Linear 	0.1 0.2
+	Animate ChargeLabelColorShadow 					Alpha 		"255" 					Linear 	0.0 0.00
+	Animate	ChargeLabelColorShadow 					FgColor		"OPAQUESHADOW"			Linear 	0.0 0.01
+	
+	//UBERCHARGE MINMODE
+	Animate ChargeLabelMinmode 						Alpha 		"255" 					Linear 	0.0 0.00
+	Animate ChargeLabelMinmode 						FgColor 	"HPGREEN" 				Accel 	0.0 0.0
+
+	RunEvent HudMedicChargedLoop					0.6
+}
+
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 						0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 						0.0
+	StopEvent HudMedicChargedLoop 					0.0
+
+	//STOP CHARGEMETER
+	Animate	ChargeMeter 							FgColor		"YELLOWGOLD"			Linear 	0.0 0.0001
+	
+	//STOP UBERCHARGE LABEL
+	Animate ChargeLabelColor 						Alpha 		"0" 					Linear 	0.0 0.00
+	Animate	ChargeLabelColor 						FgColor		"FULLYTRANSPARENT"		Linear 	0.1 0.2
+	Animate ChargeLabelColorShadow 					Alpha 		"0" 					Linear 	0.0 0.00
+	Animate	ChargeLabelColorShadow 					FgColor		"FULLYTRANSPARENT"		Linear 	0.0 0.01
+	
+	//UBERCHARGE MINMODE
+	Animate ChargeLabelMinmode 						Alpha 		"255" 					Linear 	0.0 0.00
+	Animate ChargeLabelMinmode 						FgColor 	"WHITEY" 				Accel 	0.0 0.0
+}
+
+//============================================================================================================================================================================
+
+event HudSpyDisguiseChanged
+{
+	Animate PlayerStatusSpyOutlineImage				Alpha		"255"					Linear 	0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage				Position	"c-310 c180"			Linear 	0.0 0.2
+	Animate PlayerStatusSpyOutlineImage				Size		"100 100"				Linear 	0.0 0.2
+
+	RunEvent HudSpyDisguiseHide						0.7
+}
+
+event HudSpyDisguiseHide
+{
+	Animate PlayerStatusSpyOutlineImage				Position	"3 413"					Linear 	0.0 0.2
+	Animate PlayerStatusSpyOutlineImage				Size		"55 55"					Linear 	0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage				Alpha		"0"						Linear 	0.2 0.1
+}
+
+event HudSpyDisguiseFadeIn
+{
+	RunEvent HudSpyDisguiseChanged					0
+	Animate PlayerStatusSpyImage					Alpha		"255"					Linear 	0.9 0.1	
+}
+
+event HudSpyDisguiseFadeOut
+{
+	RunEvent HudSpyDisguiseChanged					0
+	Animate PlayerStatusSpyImage					Alpha		"0"						Linear 	0.9 0.1	
+}
+
+//============================================================================================================================================================================

@@ -44,14 +44,9 @@
 		"teambg_3"		"replay/thumbnails/materialPanelBlu"
 
 		"xpos"			"10"
-		"ypos"			"29"
+		"ypos"			"28"
 		"wide"			"200"
-		"tall"	 		"32"
-
-		//"xpos_minmode"			"10"
-		//"ypos_minmode"			"48"
-		//"wide_minmode"			"140"
-		//"tall_minmode"	 		"22"
+		"tall"	 		"33"
 
 		"src_corner_height"		"24"				// pixels inside the image
 		"src_corner_width"		"24"
@@ -76,13 +71,9 @@
 
 		"font"			"Bold16"
 		"xpos"			"52"
-		"ypos"			"30"
+		"ypos"			"33"
 		"wide"			"110"
-		"tall"			"24"
-
-		//"font_minmode"	"Bold16"
-		//"xpos_minmode"	"34"
-		//"ypos_minmode"	"51"
+		"tall"			"23"
 	}
 	
 	"WeaponNameLabel"
@@ -104,10 +95,6 @@
 		"ypos"			"44"
 		"wide"			"110"
 		"tall"			"24"
-
-		//"font_minmode"	"Medium12"
-		//"xpos_minmode"	"34"
-		//"ypos_minmode"	"58"
 	}
 	
 	"SpectatorGUIHealth"
@@ -125,9 +112,6 @@
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
-
-		//"xpos_minmode"	"10"
-		//"ypos_minmode"	"45"
 	}	
 	
 }

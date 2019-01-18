@@ -1,47 +1,19 @@
+#base "../../../resource/tools/ReloadSchemeButton.res"
+
 "Resource/UI/TradingStartDialog.res"
 {
-
-		"Background"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"Background"
-			"xpos"		"c-200"
-			"ypos"		"0"
-			"zpos"		"-20"
-			"wide"		"400"
-			"tall"		"f0"
-			"autoResize"		"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"		"0"
-			"bgcolor_override"	"40 37 37 0"
-			"proportionalToParent"	"1"
-
-			"border"		"MaterialBorderDARKMEDBLUGRAY"
-			"image"				"replay/thumbnails/materialPanel"
-			"paintbackground"	"0"
-		}
-
-
 	"TradingStartDialog"
 	{
 		"fieldName"				"TradingStartDialog"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
+		"xpos"					"c-200"
 		"ypos"					"80"
 		"wide"					"400"
 		"tall"					"300"
-		"bgcolor_override"		"0 0 0 0"
-		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
-
-		"border"		""
-		"image"				"replay/thumbnails/materialPanel"
-		"paintbackground"	"1"
-
-	
+		"paintbackground"		"1"
+		"bgcolor_override"		"DARKMEDBLUGRAY"
 		
 		"button_kv"
 		{
@@ -97,8 +69,8 @@
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontMediumBold"
 		"labelText"		"#TF_TradeStartDialog_Title"
-		"textAlignment"	"center"
-		"xpos"			"-40"
+		"textAlignment"	"north"
+		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"400"
@@ -169,7 +141,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"subbutton0"
-			"xpos"			"50"
+			"xpos"			"100"
 			"ypos"			"50"
 			"zpos"			"1"
 			"wide"			"200"
@@ -188,7 +160,7 @@
 			"Command"		"friends"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"border_default"	"MainMenuButtonDefault"
 			"border_armed"		"MainMenuButtonArmed"
 			"paintbackground"	"0"
@@ -201,7 +173,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"subbutton1"
-			"xpos"			"50"
+			"xpos"			"100"
 			"ypos"			"90"
 			"zpos"			"1"
 			"wide"			"200"
@@ -220,7 +192,7 @@
 			"Command"		"server"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"border_default"	"MainMenuButtonDefault"
 			"border_armed"		"MainMenuButtonArmed"
 			"paintbackground"	"0"
@@ -233,7 +205,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"subbutton2"
-			"xpos"			"50"
+			"xpos"			"100"
 			"ypos"			"130"
 			"zpos"			"1"
 			"wide"			"200"
@@ -252,7 +224,7 @@
 			"Command"		"profile"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"border_default"	"MainMenuButtonDefault"
 			"border_armed"		"MainMenuButtonArmed"
 			"paintbackground"	"0"
@@ -310,7 +282,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "SOFTORANGE"
 		}	
 	}
 	"StatePanel2"
@@ -362,7 +334,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "SOFTORANGE"
 		}	
 	}
 	"StatePanel3"
@@ -414,7 +386,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "117 107 94 255"
+			"fgcolor_override" "WHITEY"
 		}	
 		
 		"URLFailLabel"
@@ -435,7 +407,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "SOFTORANGE"
 		}	
 		"URLSearchingLabel"
 		{
@@ -455,7 +427,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "SOFTORANGE"
 		}	
 		
 		"URLEntry"
@@ -477,7 +449,7 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 			"wrap"				"0"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"WHITEY"
 			"bgcolor_override"	"0 0 0 60"
 			"paintbackgroundtype" "2"
 			"labelText"			""
@@ -493,7 +465,7 @@
 			"ypos"			"150"
 			"zpos"			"1"
 			"wide"			"200"
-			"tall"			"25"
+			"tall"			"32"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -508,10 +480,17 @@
 			"Command"		"url_ok"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	"MainMenuButtonDefault"
+			"border_armed"		"MainMenuButtonArmed"
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "WHITEY"
+			"armedFgColor_override" "DEEPRED"
+			"depressedFgColor_override" "DEEPRED"
 		}
 	}
 	
-
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -520,13 +499,13 @@
 		"ypos"			"250"
 		"zpos"			"1"
 		"wide"			"100"
-		"tall"			"25"
+		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"r"
+		"labelText"		"#Cancel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -535,5 +514,13 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
 	}
 }

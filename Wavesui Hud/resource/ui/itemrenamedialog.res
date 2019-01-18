@@ -12,7 +12,7 @@
 		"bgcolor_override"		"46 43 42 0"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"GrayDialogBorder"
+		"border"		"MaterialBorderDARKMEDBLUGRAY"
 	}
 
 	"mouseoveritempanel"
@@ -26,7 +26,7 @@
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"WHITEY"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
@@ -50,7 +50,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"WHITEY"
 			"centerwrap"	"1"
 		}
 	}
@@ -100,8 +100,8 @@
 		"xpos"			"10"
 		"ypos"			"10"
 		"zpos"			"2"
-		"wide"			"16"
-		"tall"			"16"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"backpack_jewel_modify_target_b_g"
@@ -120,7 +120,7 @@
 		"tall"			"64"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"WHITEY"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		
@@ -136,6 +136,7 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+			"inventory_image_type"	"1"
 		}
 	}	
 	
@@ -165,8 +166,8 @@
 		"xpos"			"300"
 		"ypos"			"10"
 		"zpos"			"2"
-		"wide"			"16"
-		"tall"			"16"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"backpack_jewel_modify_target_b_g"
@@ -185,7 +186,7 @@
 		"tall"			"64"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"WHITEY"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		
@@ -201,6 +202,7 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+			"inventory_image_type"	"1"
 		}
 	}	
 	
@@ -220,7 +222,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override" "0 0 0 255"
+		"bgcolor_override" "0 0 0 0"
 		"paintbackgroundtype" "2"
 	}
 	"OldItemNameDescLabel"
@@ -239,7 +241,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "WHITEY"
 		"paintbackground" "0"
 	}
 	"OldItemNameLabel"
@@ -257,7 +259,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "WHITEY"
 		"paintbackground" "0"
 	}
 
@@ -277,7 +279,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override" "0 0 0 255"
+		"bgcolor_override" "0 0 0 0"
 		"paintbackgroundtype" "2"
 	}
 	"NewItemNameDescLabel"
@@ -296,7 +298,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "WHITEY"
 		"paintbackground" "0"
 	}
 	"CustomNameEntry"
@@ -318,8 +320,8 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		"wrap"				"0"
-		"fgcolor_override"	"235 226 202 255"
-		"bgcolor_override"	"46 43 42 255"
+		"fgcolor_override"	"WHITEY"
+		"bgcolor_override"	"DARKGRAY"
 		"paintbackgroundtype" "2"
 		"labelText"			""
 		"font"				"HudFontSmall"
@@ -342,7 +344,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "SOFTLITERED"
 	}
 
 	"CancelButton"
@@ -353,7 +355,7 @@
 		"ypos"			"200"
 		"zpos"			"1"
 		"wide"			"130"
-		"tall"			"25"
+		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -368,6 +370,14 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
 	}
 	
 	"OkButton"
@@ -378,7 +388,7 @@
 		"ypos"			"200"
 		"zpos"			"1"
 		"wide"			"130"
-		"tall"			"25"
+		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -393,5 +403,13 @@
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
 	}
 }

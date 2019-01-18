@@ -1,94 +1,85 @@
-
-
-//////////////////////////////////
-/// ROBOTO FONT IMPLEMENTATION
-/////////////////////////////////////////////////
-
-
-
-
-
 Scheme
 {
 	Colors
 	{
+		///////////////////////////////////////
+		/////////////WAVESUI COLORS////////////
+		///////////////////////////////////////
+	
+		"WHITEY"			"255 255 255 255"
+		"BLACKY"			"0 0 0 255"
+		"OPAQUESHADOW"		"10 10 10 210"
+		"CLEARSHADOW"		"10 10 10 140"
+		"FULLTRANSPARENT"	"0 0 0 0"
 
-	"WHITEY"			"255 255 255 255"
-	"BLACKY"			"0 0 0 255"
-	"OPAQUESHADOW"		"10 10 10 210"
-	"CLEARSHADOW"		"10 10 10 140"
-	"FULLTRANSPARENT"	"0 0 0 0"
+		"DARKGRAY"			"22 22 22 255"
+		"MEDIUMGRAY"		"32 32 32 255"
+		"LITEGRAY"			"42 42 42 255"
+		"VERYLITEGRAY" 		"52 52 52 255"
+		"GRAY"				"95 95 95 255"
+		"BRIGHTGRAY"		"127 127 127 255"
+		"VERYBRIGHTGRAY"	"180 180 180 255"
 
-	"DARKGRAY"			"22 22 22 255"
-	"MEDIUMGRAY"		"32 32 32 255"
-	"LITEGRAY"			"42 42 42 255"
-	"VERYLITEGRAY" 		"52 52 52 255"
-	"GRAY"				"95 95 95 255"
-	"BRIGHTGRAY"		"127 127 127 255"
-	"VERYBRIGHTGRAY"	"180 180 180 255"
+		//"DARKBLUGRAY"		"16 23 25 255"
+		//"DARKBLUGRAY"		"16 18 20 255"
+		"DARKBLUGRAY"		"18 20 22 255"
+		"BLUGRAY"			"47 72 88 255"
+		"DARKISHMEDBLUGRAY" "40 70 75 255"
+		"DARKERMEDBLUGRAY"	"40 44 46 255"
+		"DARKMEDBLUGRAY"	"50 55 58 255"
+		"MEDBLUGRAY"		"57 62 65 255"
+		"BOTTOMBLU"			"37 42 45 255"
+		"LITEMEDBLUGRAY"	"79 100 111 255"
+		"VERYLITEMEDBLUGRAY""50 103 113 255"
+		"SOFTBLUGRAY"		"98 131 149 255"
+		"COOLSOLIDBLU"		"0 95 128 255"
 
-	//"DARKBLUGRAY"		"16 23 25 255"
-	//"DARKBLUGRAY"		"16 18 20 255"
-	"DARKBLUGRAY"		"18 20 22 255"
-	"BLUGRAY"			"47 72 88 255"
-	"DARKISHMEDBLUGRAY" "40 70 75 255"
-	"DARKERMEDBLUGRAY"	"40 44 46 255"
-	"DARKMEDBLUGRAY"	"50 55 58 255"
-	"MEDBLUGRAY"		"57 62 65 255"
-	"BOTTOMBLU"			"37 42 45 255"
-	"LITEMEDBLUGRAY"	"79 100 111 255"
-	"VERYLITEMEDBLUGRAY""50 103 113 255"
-	"SOFTBLUGRAY"		"98 131 149 255"
-	"COOLSOLIDBLU"		"0 95 128 255"
+		"GREENGRAY"			"91 142 125 255"
+		"COOLBLUGREEN"		"91 192 190 255"
+		"COOLSOLIDGREEN"	"0 128 95 255"
 
-	"GREENGRAY"			"91 142 125 255"
-	"COOLBLUGREEN"		"91 192 190 255"
-	"COOLSOLIDGREEN"	"0 128 95 255"
+		"HPGREEN"			"88 225 160 255"
+		"SOFTLITEBLU"		"135 246 255 255"
 
-	"HPGREEN"			"88 225 160 255"
-	"SOFTLITEBLU"		"135 246 255 255"
+		"SOFTLITEGREEN"		"68 255 210 255"
+		"VERYSOFTLITEGREEN"	"127 209 215 255"
 
-	"SOFTLITEGREEN"		"68 255 210 255"
-	"VERYSOFTLITEGREEN"	"127 209 215 255"
+		"LIMEGREEN"			"129 193 37 255"
+		"LIMEYELLOW"		"155 236 87 255"
 
-	"LIMEGREEN"			"129 193 37 255"
-	"LIMEYELLOW"		"155 236 87 255"
+		"DARKYELLOWGOLD"	"221 156 40 255"
+		"YELLOWGOLD"		"246 174 45 255"
+		"SHERBETORANGE"		"219 127 103 255"
+		"SOFTORANGE"		"244 162 89 255"
+		"DARKERORANGE"      "222 110 75 255"
+		"DARKDARKORANGE"	"197 105 1 255"
 
-	"DARKYELLOWGOLD"	"221 156 40 255"
-	"YELLOWGOLD"		"246 174 45 255"
-	"SHERBETORANGE"		"219 127 103 255"
-	"SOFTORANGE"		"244 162 89 255"
-	"DARKERORANGE"      "222 110 75 255"
-	"DARKDARKORANGE"	"197 105 1 255"
+		"DARKPINKPURPLISH"	"125 98 113 255"
+		"DPURPLE"			"182 83 223 255"
+		"SOFTPINK"			"250 197 226 255"
 
-	"DARKPINKPURPLISH"	"125 98 113 255"
-	"DPURPLE"			"182 83 223 255"
-	"SOFTPINK"			"250 197 226 255"
+		"DEEPRED"			"76 12 7 255"
+		"TOMATORED"			"188 75 81 255"
+		"SOFTLITERED"		"241 81 86 255"
+		"SUPERSOFTLITERED"	"255 146 139 255"
+		"SOFTMAROON"		"152 95 111 255"
+		"VERYLITESOFTRED"	"239 93 96 255"
 
-	"DEEPRED"			"76 12 7 255"
-	"TOMATORED"			"188 75 81 255"
-	"SOFTLITERED"		"241 81 86 255"
-	"SUPERSOFTLITERED"	"255 146 139 255"
-	"SOFTMAROON"		"152 95 111 255"
-	"VERYLITESOFTRED"	"239 93 96 255"
+		"BLUTEAM"			"22 124 202 255"
+		"REDTEAM"			"202 52 64 255"
+		
+		
 
-	"BLUTEAM"			"22 124 202 255"
-	"REDTEAM"			"202 52 64 255"
-
-/////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-	//// BASE COLORS /////////////////////////////////////////////////
+		///////////////////////////////////////
+		//////////////BASE COLORS//////////////
+		///////////////////////////////////////
+		
 		"MainMenuWarning"	"0 0 0 0"
-		"Orange"			"178 82 22 255"
-		"OrangeDim"			"178 82 22 120"
-		"LightOrange"		"188 112 0 128"
+		"Orange"			"244 162 89 255"
+		"OrangeDim"			"244 162 89 255"
+		"LightOrange"		"244 162 89 255"
 		"GoalOrange"		"255 133 0"
-		"TFOrange"			"145 73 59 255"
+		"TFOrange"			"244 162 89 255"
 		"Purple"			"137 69 99 255"
 
 		"QuestGold"			"208 147 75 255"
@@ -109,12 +100,12 @@ Scheme
 		"PartyMember5"	"255 118 108 255"
 		"PartyMember6"	"255 133 255 255"
 		
-		"White"				"235 235 235 255"
-		"Red"				"192 28 0 140"
-		"RedSolid"			"192 28 0 255"
-		"Blue"				"0 28 162 140"
-		"Yellow"			"251 235 202 255"
-		"TransparentYellow"	"251 235 202 140"
+		"White"				"255 255 255 255"
+		"Red"				"202 52 64 255"
+		"RedSolid"			"202 52 64 255"
+		"Blue"				"22 124 202 255"
+		"Yellow"			"255 255 255 255"
+		"TransparentYellow"	"255 255 255 255"
 		//"Black"				"0 0 0 255"
 		//Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
@@ -124,11 +115,11 @@ Scheme
 		"TransparentLightBlack"	"0 0 0 90"
 		"FooterBGBlack"		"52 48 55 255"
 		
-		"HUDBlueTeam"		"104 124 155 127"
-		"HUDRedTeam"		"180 92 77 127"
+		"HUDBlueTeam"		"22 124 202 255"
+		"HUDRedTeam"		"202 52 64 255"
 		"HUDSpectator"		"124 124 124 127"
-		"HUDBlueTeamSolid"	"104 124 155 255"
-		"HUDRedTeamSolid"	"180 92 77 255"
+		"HUDBlueTeamSolid"	"22 124 202 255"
+		"HUDRedTeamSolid"	"202 52 64 255"
 		"HUDDeathWarning"	"255 0 0 255"
 		"HudWhite"			"255 255 255 255"
 		"HudOffWhite"		"200 187 161 255"
@@ -144,14 +135,14 @@ Scheme
 		"ForTesting_Magenta"	"255 0 255 255"
 		"ForTesting_MagentaDim"	"255 0 255 120"
 
-		"HudPanelForeground"		"123 110 59 184"
-		"HudPanelBackground"		"123 110 59 184"
-		"HudPanelBorder"			"255 255 255 102"
+		"HudPanelForeground"		"255 255 255 255"
+		"HudPanelBackground"		"255 255 255 255"
+		"HudPanelBorder"			"255 255 255 255"
 
-		"HudProgressBarActive"		"240 207 78 255"
-		"HudProgressBarInActive"	"140 120 73 255"
-		"HudProgressBarActiveLow"	"240 30 30 255"
-		"HudProgressBarInActiveLow"	"240 30 30 99"	
+		"HudProgressBarActive"		"255 255 255 255"
+		"HudProgressBarInActive"	"255 255 255 255"
+		"HudProgressBarActiveLow"	"202 52 64 255"
+		"HudProgressBarInActiveLow"	"202 52 64 255"	
 
 		"HudTimerProgressActive"	"251 235 202 255"
 		"HudTimerProgressInActive"	"52 48 45 255"
@@ -160,9 +151,9 @@ Scheme
 		// training
 		"HudTrainingHint"			"212 160 23 255"
 		
-		"TanDark"				"117 107 94 255"
+		"TanDark"				"180 180 180 255"
 		"TanLight"				"255 255 255 255"
-		"TanDarker"				"46 43 42 255"
+		"TanDarker"				"40 40 40 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
 		"StoreGreen"			"76 107 34 255"
@@ -173,12 +164,12 @@ Scheme
 		"ProgressBackground"	"250 234 201 51"
 		"HealthBgGrey"		"72 71 69 255"
 		
-		"ProgressOffWhiteTransparent"	"251 235 202 128"
+		"ProgressOffWhiteTransparent"	"255 255 255 255"
 		
 		"LabelDark"			"48 43 42 255"
 		"LabelTransparent"	"109 96 80 180"
 		
-		"BuildMenuActive"	"248 231 198 255"
+		"BuildMenuActive"	"255 255 255 255"
 		
 		"DisguiseMenuIconRed"	"192 56 63 255"
 		"DisguiseMenuIconBlue"	"92 128 166 255"
@@ -282,45 +273,45 @@ Scheme
 	{
 		// vgui_controls color specifications
 		ReplayBrowser.BgColor								"DarkBrown"
-		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"LightRed"
-		ReplayBrowser.Button.ArmedBgColor					"TFOrange"
-		ReplayBrowser.Button.DepressedBgColor				"TFOrange"
-		ReplayBrowser.CollectionTitle.FgColor				"LightRed"
+		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"SOFTORANGE"
+		ReplayBrowser.Button.ArmedBgColor					"SOFTORANGE"
+		ReplayBrowser.Button.DepressedBgColor				"SOFTORANGE"
+		ReplayBrowser.CollectionTitle.FgColor				"SOFTORANGE"
 		ReplayBrowser.Warning.FgColor						"White"
-		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
+		ReplayBrowser.ScrollBar.SliderButton.FgColor		"White"
 		ReplayBrowser.Search.BgColor						"TanDark"
 		ReplayBrowser.Search.FgColor						"White"
 		
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 		
-		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"TanDark"
-		Econ.Button.FgColor									"TanLight"
-		Econ.Button.ArmedBgColor							"TFOrange"
-		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"TFOrange"
-		Econ.Button.DepressedFgColor						"Black"
+		Econ.Dialog.BgColor									"57 62 65 255"
+		Econ.Button.BgColor									"SOFTBLUGRAY"
+		Econ.Button.FgColor									"White"
+		Econ.Button.ArmedBgColor							"SOFTORANGE"
+		Econ.Button.ArmedFgColor							"White"
+		Econ.Button.DepressedBgColor						"SOFTORANGE"
+		Econ.Button.DepressedFgColor						"White"
 		
-		Econ.Button.PresetDefaultColorFg					"TanLight"
-		Econ.Button.PresetArmedColorFg						"TanLight"
-		Econ.Button.PresetDepressedColorFg					"TanLight"
+		Econ.Button.PresetDefaultColorFg					"White"
+		Econ.Button.PresetArmedColorFg						"White"
+		Econ.Button.PresetDepressedColorFg					"White"
 		
-		Econ.Button.PresetDefaultColorBg					"LighterRed"
-		Econ.Button.PresetArmedColorBg						"LightRed"
-		Econ.Button.PresetDepressedColorBg					"TFOrange"
+		Econ.Button.PresetDefaultColorBg					"SOFTORANGE"
+		Econ.Button.PresetArmedColorBg						"SOFTORANGE"
+		Econ.Button.PresetDepressedColorBg					"SOFTORANGE"
 		
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TanLight"
+		Button.TextColor				"White"
 		Button.BgColor					"MEDBLUGRAY" //tandark
-		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
-		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
+		Button.ArmedTextColor			"White"
+		Button.ArmedBgColor				"SOFTORANGE"
+		Button.SelectedTextColor		"White"
+		Button.SelectedBgColor			"SOFTORANGE"
 		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.DepressedBgColor			"SOFTORANGE"
 
 		CheckButton.TextColor			"WHITEY"
 		CheckButton.SelectedTextColor	"WHITEY"

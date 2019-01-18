@@ -273,7 +273,6 @@
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
 		"ypos"				"0"
-		"ypos_minmode"		"-14"
 		"zpos"				"2"
 		"wide"				"110"
 		"tall"				"150"
@@ -290,7 +289,6 @@
 		if_match
 		{
 			"ypos"				"4"
-			"ypos_minmode"		"4"
 		}
 		
 		"TimePanelValue"
@@ -309,19 +307,6 @@
 			"ypos"			"-6"
 			"wide"			"45"
 			"tall"			"31"
-
-			"font_minmode"	"HudFontSmall"
-			"xpos_minmode"	"39"
-			"ypos_minmode"	"6"
-			"wide_minmode"	"30"
-
-			if_match
-			{
-				"font_minmode"	"Bold13"
-				"xpos_minmode"	"32"
-				"ypos_minmode"	"-6"
-				"wide_minmode"	"45"
-			}
 		}
 	}
 
@@ -359,8 +344,8 @@
 			"tall"			"50"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"	"119 62 61 255"
-			"color_portrait_bg_blue"	"62 81 101 255"
+			"color_portrait_bg_red"	"REDTEAM"
+			"color_portrait_bg_blue"	"BLUTEAM"
 			"color_portrait_bg_red_dead"	"79 54 52 255"
 			"color_portrait_bg_blue_dead"	"44 49 51 255"
 			"color_bar_health_high"	"84 191 58 255"

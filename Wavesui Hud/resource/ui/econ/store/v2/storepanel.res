@@ -36,8 +36,8 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TitleBarBG"
 		"xpos"			"-10"
-		"ypos"			"-10"
-		"zpos"			"-1"
+		"ypos"			"7"
+		"zpos"			"30"
 		"wide"			"2000"
 		"tall"			"36"
 		"autoResize"	"0"
@@ -51,24 +51,6 @@
 		"border"		"MaterialBorderBOTTOMBLU"
 		"image"				"replay/thumbnails/materialPanel"
 		"paintbackground"	"0"
-	}
-	
-	"MANNCOSTORELABEL"	
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"MANNCOSTORELABEL"
-		"xpos"			"22"
-		"ypos"			"20"
-		"zpos"			"500"
-		"wide"			"280"
-		"tall"			"28"
-		"autoresize"	"0"
-		"pincorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labeltext"		"mann co. store"
-		"fgcolor"		"SOFTLITEBLU"
-		"font"			"SemiLight18"
 	}
 
 	"BackgroundHeader"
@@ -155,37 +137,53 @@
 		}
 	}
 	
-	"CloseButton"
+	"MANNCOSTORELABEL"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"MANNCOSTORELABEL"
+		"xpos"			"24"
+		"ypos"			"16"
+		"zpos"			"932"
+		"wide"			"100"
+		"tall"			"26"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"mann co. store"
+		"font"			"SemiLight18"
+		"textAlignment"	"west"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"paintbackground" "0"
+		"Command"		"backpack"
+		
+		"fgcolor_override"		"SOFTLITEBLU"
+		
+		// default style
+		"defaultBgColor_override"	"WHITEY"
+		"defaultFgColor_override" "SOFTLITEBLU"
+		"border_default"		"FuckinBorderDude"
+        
+		// armed style
+		"armedBgColor_override"	"SOFTORANGE"
+		"armedFgColor_override" 	"SOFTORANGE"
+		"border_armed"		"FuckinBorderDude"
+    
+		// depressed style    
+		"depressedBgColor_override"	"SOFTORANGE"
+		"depressedFgColor_override" "SOFTORANGE"
+	}
+	"CloseButton"  //BACK ARROW THINGY
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"c-300"
-		"ypos"			"437"
-		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_BackCarat"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"close"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-
-	"BackButton"  //BACK ARROW THINGY
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"BackButton"
 		"xpos"			"r28"
-		"ypos"			"26"
+		"ypos"			"21"
 		"zpos"			"940"
 		"wide"			"100"
 		"tall"			"16"
@@ -212,7 +210,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton2"
 		"xpos"			"r44"
-		"ypos"			"28"		
+		"ypos"			"23"		
 		"zpos"			"940"
 		"wide"			"19"
 		"tall"			"14"
@@ -239,7 +237,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButtonBind"
 		"xpos"			"r41"
-		"ypos"			"28"		
+		"ypos"			"23"		
 		"zpos"			"941"
 		"wide"			"16"
 		"tall"			"15"
@@ -260,7 +258,7 @@
 		"armedFgColor_override" "SOFTORANGE"
 		"depressedFgColor_override" "SOFTORANGE"
 		"selectedFgColor_override" "Black"
-	}	
+	}
 	
 	"armory_panel"
 	{
@@ -291,8 +289,8 @@
 	{
 		"ControlName"	"CheckButton"
 		"fieldName"		"SupportCommunityMapMakersCheckButton"
-		"xpos"			"c273"
-		"ypos"			"443"
+		"xpos"			"c270"
+		"ypos"			"445"
 		"zpos"			"5"
 		"wide"			"25"
 		"tall"			"25"
@@ -307,7 +305,7 @@
 		"fieldName"			"SupportCommunityMapMakersLabel"
 		"textAlignment"		"north-west"
 		"xpos"				"c304"
-		"ypos"				"440"
+		"ypos"				"450"
 		"zpos"				"5"
 		"wide"				"70"
 		"tall"				"100"

@@ -1,3 +1,5 @@
+#base "../../../../../resource/tools/ReloadSchemeButton.res"
+
 "Resource/UI/StoreHome_Base.res"
 {
 
@@ -233,31 +235,6 @@
 		}
 	}
 		
-	"ReloadSchemeButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ReloadSchemeButton"
-		"xpos"			"c40"
-		"ypos"			"330"
-		"zpos"			"25"
-		"wide"			"100"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"RELOADSCHEME"
-		"font"			"HudFontSmallestBold"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"reloadscheme"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-	
 	"ItemCategoryTabs"
 	{
 		"ControlName"		"CNavigationPanel"
@@ -290,21 +267,18 @@
 			"tabPosition"		"0"
 			"textAlignment"		"center"
 			"scaleImage"		"1"
-			"font"			"HudFontSmallestBold"
-			
-			"fgcolor"	"124 114 99 255"
-			"defaultBgColor_override" "38 35 33 0"
-			"defaultFgColor_override" "124 114 99 255"
-			"armedBgColor_override" "30 30 30 0"
-			"armedFgColor_override" "124 114 99 255"
-			"selectedBgColor_override" "10 10 10 0"
-			"selectedFgColor_override"	"235 227 203 255"
+			"font"				"HudFontSmallestBold"
+		
+			"fgcolor"	"WHITEY"
+			"defaultFgColor_override" "WHITEY"
+			"armedFgColor_override" "WHITEY"
+			"selectedFgColor_override"	"SOFTORANGE"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
 			
-			"paintbackground"	"1"
+			"paintbackground"	"0"
 			"paintborder"		"1"
 			
 			"border"				"MainMenuButtonArmed"
@@ -402,7 +376,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		">"
+		"labelText"		"&D"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -581,8 +555,8 @@
 		"xpos"			"c-45"
 		"ypos"			"c-230"
 		"zpos"			"100"
-		"wide"			"350"
-		"tall"			"20"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"

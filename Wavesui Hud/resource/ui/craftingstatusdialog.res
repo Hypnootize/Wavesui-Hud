@@ -9,10 +9,10 @@
 		"ypos"					"200"
 		"wide"					"200"
 		"tall"					"110"
-		"bgcolor_override"		"46 43 42 0"
-		"paintbackgroundtype"	"0"
+		"bgcolor_override"		"DARKMEDBLUGRAY"
+		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	"0"
-		"border"				"GrayDialogBorder"
+		"border"				"NoBorder"
 	}
 	
 	"CenterPositioner"
@@ -61,7 +61,7 @@
 		"centerwrap"	"1"
 		"labelText"		"%updatetext%"
 		"textAlignment"		"center"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "SOFTORANGE"
 		"bgcolor_override" "0 0 0 0"
 		"auto_wide_tocontents" "1"
 		
@@ -98,10 +98,10 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
 		"xpos"			"50"
-		"ypos"			"75"
+		"ypos"			"70"
 		"zpos"			"1"
 		"wide"			"100"
-		"tall"			"25"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -116,5 +116,13 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
 	}
 }
