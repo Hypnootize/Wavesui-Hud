@@ -45,15 +45,6 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"north-west"
-					
-				if_mvm
-				{
-					"xpos"				"0"
-					"ypos"				"25"
-					"wide"				"55"
-					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
-				}
 			}
 			
 			"classimage"
@@ -68,16 +59,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"vgui\hud\scoutred"
-				"scaleImage"	"1"	
-				
-				if_mvm
-				{
-					"xpos"			"5"
-					"ypos"			"4"
-					"wide"			"20"
-					"tall"			"20"
-					"image"			"../vgui/hud_connecting"
-				}
+				"scaleImage"	"1"
 			}
 			
 			"classimagebg"
@@ -94,8 +76,6 @@
 				"bgcolor_override"		"190 190 190 255"
 			}
 
-		
-		
 			"HealthIcon"
 			{
 				"ControlName"		"EditablePanel"
@@ -152,11 +132,6 @@
 			
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
-				
-				if_mvm
-				{
-					"visible"		"1"
-				}	
 			}
 			
 			"ReadyImage"
@@ -174,11 +149,6 @@
 				"enabled"		"1"
 				"image"			"hud/checkmark"
 				"scaleImage"		"1"
-
-				if_mvm
-				{
-					"visible"		"1"
-				}
 			}
 			
 			"respawntime"
@@ -197,11 +167,6 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"east"
 				"fgcolor"		"YELLOWGOLD"
-				
-				if_mvm
-				{
-					"ypos"			"17"
-				}
 			}
 			"respawntimeshadow"
 			{
@@ -219,11 +184,6 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"east"
 				"fgcolor"		"BLACKY"
-				
-				if_mvm
-				{
-					"ypos"			"17"
-				}
 			}
 			
 			"chargeamount"
@@ -276,25 +236,8 @@
 				"visible"		"0"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
-			}
-			
-			if_mvm
-			{
-				"wide"		"55"
-				"tall"		"35"
 			}
 		}
-		
-		if_mvm
-		{
-			"xpos"					"c-250"
-			"ypos"					"6"
-			"wide"					"500"
-			"tall"					"180"
-	
-			"team1_player_delta_x"			"52"
-		}		
 	}
 
 	"topbar"
