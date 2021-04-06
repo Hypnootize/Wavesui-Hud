@@ -3166,25 +3166,25 @@ Scheme
 
 
 
-//////////////////////// CUSTOM FONT FILES /////////////////////////////
+	//////////////////////// CUSTOM FONT FILES /////////////////////////////
 	CustomFontFiles
 	{
-		"1"
+		"10"
 		{
 			"font"	"resource/fonts/AvenirLTStd-Book.otf"
 			"name"	"AvenirLTStd-Book"
 		}
-		"2"
+		"11"
 		{
 			"font"	"resource/fonts/AvenirLTStd-Roman.otf"
 			"name"	"AvenirLTStd-Roman"
 		}
-		"3"
+		"12"
 		{
 			"font"	"resource/fonts/AvenirLTStd-Roman.otf"
 			"name"	"AvenirLTStd-Roman"
 		}
-		"4"
+		"13"
 		{
 			"font"	"resource/fonts/AvenirLTStd-Black.ttf"
 			"name"	"AvenirLTStd-Black"

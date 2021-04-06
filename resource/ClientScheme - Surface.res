@@ -3167,15 +3167,15 @@ Scheme
 
 
 
-//////////////////////// CUSTOM FONT FILES /////////////////////////////
+	//////////////////////// CUSTOM FONT FILES /////////////////////////////
 	CustomFontFiles
 	{
-		"1"
+		"10"
 		{
 			"font"	"resource/fonts/Surface_Medium.otf"
 			"name"	"surface-medium"
 		}
-		"2"
+		"11"
 		{
 			"font"	"resource/fonts/Surface-Sharpened.ttf"
 			"name"	"Surface Sharpened"

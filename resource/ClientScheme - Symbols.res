@@ -476,50 +476,50 @@ Scheme
 	
 	CustomFontFiles
 	{
-		"1"
+		"30"
 		{
 			"font"	"resource/fonts/Sosa-Regular.ttf"
 			"name"	"Sosa Regular"
 		}
-		"2"
+		"31"
 		{
 			"font"	"resource/fonts/Entypo.otf"
 			"name"	"Entypo"
 		}
-		"3"
+		"32"
 		{
 			"font"	"resource/fonts/WebSymbols-Regular.otf"
 			"name"	"Web Symbols"
 		}
-		"4"
+		"33"
 		{
 			"font"	"resource/fonts/modernpics.otf"
 			"name"	"Modern Pictograms"
 		}
-		"5"
+		"34"
 		{
 			"font"	"resource/fonts/HudasIscariote.otf"
 			"name"	"Hudas Iscariote"
 		}
-		"6"
+		"35"
 		{
 			"font"	"resource/fonts/BLOKKNeue-Regular.otf"
 			"name"	"BLOKK Neue"
 		}
-		"7"
+		"36"
 		{
 			"font"	"resource/fonts/RissaTypeface.ttf"
 			"name"	"RissaTypeface"
 		}
-		"8"
+		"37"
 		{
 			"font" 	"resource/fonts/KnucklesCrosses.ttf"
 			"name" 	"KnucklesCrosses"
 		}
-		"9"
+		"38"
 		{
-			"font" 		"resource/fonts/Icons.ttf"
-			"name" 		"Icons"
+			"font" 	"resource/fonts/Icons.ttf"
+			"name" 	"Icons"
 		}
 	}	
 }

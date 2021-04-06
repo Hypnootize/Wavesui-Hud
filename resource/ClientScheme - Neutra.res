@@ -3191,35 +3191,35 @@ Scheme
 		}
 	}
 
-//////////////////////// CUSTOM FONT FILES /////////////////////////////
+	//////////////////////// CUSTOM FONT FILES /////////////////////////////
 	CustomFontFiles
 	{
-		"1"
+		"10"
 		{
 			"font"	"resource/fonts/Neutra2Text-Light.otf"
 			"name"	"Neutra2Text-Light"
 		}
-		"2"
+		"11"
 		{
 			"font"	"resource/fonts/Neutra2Text-Book.otf"
 			"name"	"Neutra2Text-Book"
 		}
-		"3"
+		"12"
 		{
-			"font"	"resource/fonts/NeutraText-Demi_0.otf"
+			"font"	"resource/fonts/NeutraText-Demi_0.ttf"
 			"name"	"NeutraText-Demi"
 		}
-		"4"
+		"13"
 		{
-			"font"	"resource/fonts/NeutraText-Bold_0.otf"
+			"font"	"resource/fonts/NeutraText-Bold_0.ttf"
 			"name"	"NeutraText-Bold"
 		}
-		"5"
+		"14"
 		{
 			"font"	"resource/fonts/Neutra2Text-Bold.otf"
 			"name"	"Neutra2Text-Bold"
 		}
-		"6"
+		"15"
 		{
 			"font"	"resource/fonts/Neutra2Display-Titling.otf"
 			"name"	"Neutra2Display-Titling"

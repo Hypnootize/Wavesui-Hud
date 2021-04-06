@@ -478,8 +478,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PreviousPageButton1"
-		"xpos"			"c-198"
-		"ypos"			"336"		
+		"xpos"			"0"
+		"ypos"			"0"		
 		"zpos"			"6"
 		"wide"			"16"
 		"tall"			"16"
@@ -500,14 +500,35 @@
 		"armedFgColor_override" "SOFTORANGE"
 		"depressedFgColor_override" "SOFTORANGE"
 		"selectedFgColor_override" "Black"
-	}
 
+		"pin_to_sibling" 		"CurPageLabel"
+		"pin_corner_to_sibling" "PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner" "PIN_CENTER_LEFT"
+	}
+	"CurPageLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurPageLabel"
+		"font"			"Light14"
+		"labelText"		"%backpackpage%"
+		"textAlignment"	"center"
+		"xpos"			"c228"
+		"ypos"			"313"
+		"zpos"			"1"
+		"wide"			"33"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override" "SOFTORANGE"
+	}
 	"NextPageButton1"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton1"
-		"xpos"			"c-132"
-		"ypos"			"336"		
+		"xpos"			"0"
+		"ypos"			"0"		
 		"zpos"			"6"
 		"wide"			"16"
 		"tall"			"16"
@@ -527,6 +548,9 @@
 		"armedFgColor_override" "SOFTORANGE"
 		"depressedFgColor_override" "SOFTORANGE"
 		"selectedFgColor_override" "Black"
+		"pin_to_sibling" 		"CurPageLabel"
+		"pin_corner_to_sibling" "PIN_CENTER_LEFT"
+		"pin_to_sibling_corner" "PIN_CENTER_RIGHT"
 	}
 
 
@@ -534,24 +558,7 @@
 
 
 	
-	"CurPageLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CurPageLabel"
-		"font"			"Light14"
-		"labelText"		"%backpackpage%"
-		"textAlignment"	"center"
-		"xpos"			"c-168"
-		"ypos"			"334"
-		"zpos"			"1"
-		"wide"			"28"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "SOFTORANGE"
-	}
+	
 
 	
 	

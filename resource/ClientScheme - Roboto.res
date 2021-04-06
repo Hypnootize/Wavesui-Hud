@@ -3166,25 +3166,25 @@ Scheme
 
 
 
-//////////////////////// CUSTOM FONT FILES /////////////////////////////
+	//////////////////////// CUSTOM FONT FILES /////////////////////////////
 	CustomFontFiles
 	{
-		"1"
+		"10"
 		{
 			"font"	"resource/fonts/Roboto-Light_0.ttf"
 			"name"	"Roboto Light"
 		}
-		"2"
+		"11"
 		{
 			"font"	"resource/fonts/Roboto-Regular.ttf"
 			"name"	"Roboto Black"
 		}
-		"3"
+		"12"
 		{
 			"font"	"resource/fonts/Roboto-Medium_0.ttf"
 			"name"	"Roboto Medium"
 		}
-		"4"
+		"13"
 		{
 			"font"	"resource/fonts/Roboto-Bold_0.ttf"
 			"name"	"Roboto Bold"

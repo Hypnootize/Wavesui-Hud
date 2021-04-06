@@ -1938,37 +1938,37 @@ Scheme
 	}
 	CustomFontFiles
 	{
-		"20"
+		"50"
 		{
 			"font" 		"resource/fonts/tf2cross.ttf"
 			"name" 		"tf2cross"
 		}
 		
-		"21" 
+		"51" 
 		{
 			"font" 		"resource/fonts/ASTRO867.TTF"
 			"name" 		"Astro 867"
 		}
 		
-		"22" 
+		"52" 
 		{
 			"font" 		"resource/fonts/taller_evolution.ttf"
 			"name" 		"taller evolution"
 		}
 		
-		"23"
+		"53"
 		{
 			"font" 		"resource/fonts/Crosshairs.ttf"
 			"name" 		"broeselhud Crosshairs"
 		}
 		
-		"24"
+		"54"
 		{
 			"font" 		"resource/fonts/Garm3nFont.ttf"
 			"name" 		"Garm3nFont"
 		}
 		
-		"25"
+		"55"
 		{
 			"font" 		"resource/fonts/KnucklesCrosses.ttf"
 			"name" 		"KnucklesCrosses"
